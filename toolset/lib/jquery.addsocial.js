@@ -65,21 +65,27 @@
                 
             });
             
-            /*
-            var pin = $('<a href="http://pinterest.com/pin/create/button/" class="pin-it-button" count-layout="vertical">Pin It</a><script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script>').css({
+            var sp = $('<div></div>').css({
+                border   : 'none',
+                overflow : 'hidden',
+                width    : '10px',
+                height   : '60px'
+                
+            });
+            
+            var fr = $('<a class="FlattrButton" style="display:none;" href="http://r3versin.com/redux/"></a>').css({
                 border   : 'none',
                 overflow : 'hidden',
                 width    : '50px',
                 height   : '60px'
                 
             });
-            */
             
-            //            $("<span>").html(pin).css({float: 'left'}),
-
 
             this.append(
-                       
+
+            $("<div>").html(fr).css({float: 'left'}), 
+            $("<div>").html(sp).css({float: 'left'}),                       
             $("<div>").html(gp).css({float: 'left'}),
             $("<div>").html(tw).css({float: 'left'}),
             $("<div>").html(fb).css({float: 'left'}),

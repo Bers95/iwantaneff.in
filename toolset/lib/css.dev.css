@@ -1,0 +1,107 @@
+* {
+    resize: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+details,
+summary {
+    display: block;
+    border: 1px solid #e7e7e7;
+    padding: 1em;
+}
+summary {
+    cursor: pointer;
+    background: #f0f0f0;
+}
+summary:hover,
+summary:focus { background: #ddd }
+.no-details details > * { display: none }
+.no-details details summary:before {
+    float: left;
+    width: 20px;
+    content: '✿ ';
+}
+.no-details details.open summary:before { content: '⬇ ' }
+/* Make sure summary remains visible */
+.no-details details summary { display: block }
+body { margin: 35px }
+h1 {
+    font-family: 'Cabin Sketch', Verdana, Arial;
+    font-size: 80px;
+}
+h2 {
+    font-family: 'Lobster', Verdana, Arial;
+    font-size: 40px;
+}
+h3 {
+    font-family: 'Maven Pro', Verdana, Arial;
+    font-size: 25px;
+    background: #aaffaa;
+}
+pre {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Maven Pro';
+    line-height: 25px;
+}
+details {
+    font-family: 'Maven Pro';
+    margin-bottom: 30px;
+}
+details p {
+    padding: 30px;
+    background: #aaffaa;
+}
+details ul,
+li {
+    background: #aaffaa;
+    padding-left: 30px;
+}
+details li:before {
+    content: "l\20";
+    font-family: "FoundationIconsGeneral";
+}
+cite {
+    text-decoration: none;
+    font-weight: bold;
+    cursor: help;
+}
+.list { margin-bottom: 0px }
+form {
+    background: #aaffaa;
+    padding: 30px;
+    padding-top: 0;
+}
+.d:before { content: ''!important }
+.smiley{
+font-size: 2000%;
+-moz-transition: 2s;
+-o-transition: 2s;
+transition: 2s;
+text-align:center;
+cursor:default
+}
+.smiley:hover{
+    -moz-transform: rotate(-720deg);
+    -webkit-transform: rotate(-720deg);
+    -o-transform: rotate(-720deg);
+    transform: rotate(-720deg);
+}
+#v-tooltip {
+    position: absolute;
+    background: #000;
+    padding: 3px 5px;
+    color: #fff;
+    font-size: 11px;
+    font-family: Arial, Verdana, sans-serif;
+    display: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.all-up-in-ya-google { visibility: hidden }
+body{overflow-x:hidden}
+a,a:hover { cursor: url('http://www.dolliehost.com/dolliecrave/graphics/cursors-all/finger1.gif'), auto!important }
