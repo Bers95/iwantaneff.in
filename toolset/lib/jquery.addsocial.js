@@ -73,7 +73,7 @@
                 
             });
             
-            var fr = $('<a class="FlattrButton" style="display:none;" href="http://r3versin.com/redux/"></a>').css({
+            var fr = $('<a class="FlattrButton" style="display:none;" href="http://iwantaneff.in/toolset/"></a>').css({
                 border   : 'none',
                 overflow : 'hidden',
                 width    : '50px',
