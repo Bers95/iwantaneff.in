@@ -1,920 +1,799 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<title>I want an effin toolset is a suite of tools + resources for web developers. iwantaneffin toolset iwantaneff.in toolset effin tools mothereffin toolset</title>
-
-<!--
-http://iwantaneff.in/toolset/html/asciimation/
-http://iwantaneff.in/toolset/html/asciimation.cube/
-http://iwantaneff.in/toolset/html/beautifier/
-http://iwantaneff.in/toolset/html/bookmarklet/
-http://iwantaneff.in/toolset/html/css.sanitizer/
-http://iwantaneff.in/toolset/html/datauri/
-http://iwantaneff.in/toolset/html/entifier/
-http://iwantaneff.in/toolset/html/favicon/
-http://iwantaneff.in/toolset/html/flower/
-http://iwantaneff.in/toolset/html/game-of-cloudapp-roulette/
-http://iwantaneff.in/toolset/html/game.of.pacman/
-http://iwantaneff.in/toolset/html/glitcher/
-http://iwantaneff.in/toolset/html/jjencoder/
-http://iwantaneff.in/toolset/html/link.list.opener/
-http://iwantaneff.in/toolset/html/notice/
-http://iwantaneff.in/toolset/html/packer/
-http://iwantaneff.in/toolset/html/repeat/
-http://iwantaneff.in/toolset/html/shuffler/
-http://iwantaneff.in/toolset/html/slug/
-http://iwantaneff.in/toolset/html/smiley/
-http://iwantaneff.in/toolset/html/star
-http://iwantaneff.in/toolset/html/textarea/
-http://iwantaneff.in/toolset/html/unicode.table/
-http://iwantaneff.in/unicode-smart-car
-http://iwantaneff.in/demo/
-http://iwantaneff.in/linkdump/
-http://iwantaneff.in/twitter/
-http://iwantaneff.in/forum/
-http://iwantaneff.in/feed/
-http://iwantaneff.in/cursor.css
-http://iwantaneff.in/facebook.ping
-http://iwantaneff.in/custom.webkit.scrollbar.css
--->
-
-<meta name="description" content="I want an effin toolset is a suite of tools + resources for web developers.">
-<meta name="author" content="David Higgins">
-<meta name="keywords" content="escapers,javascript,webdev,web-development,html5,js,unicode,tools,iwantaneffin,effin,mothereffin,developers" />
-<meta name="robots" content="index,follow" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII="/>
-<link rel="humans" href="http://iwantaneff.in/humans.txt" />
-<link rel="image_src" href="http://iwantaneff.in/facebook.ping" />
-<meta property="og:title" content="iwantaneff.in iwantaneffin" />
-<meta property="og:url" content="http://iwantaneff.in/" />
-<meta property="og:image" content="http://iwantaneff.in/facebook.ping" />
-<meta property="og:site_name" content="iwantaneff.in/*" />
-
-<link href="lib/global.css" rel="stylesheet" type="text/css">
-<link href="lib/zocial.css" rel="stylesheet" type="text/css">
-<link href="lib/css.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Maven+Pro" type="text/css">
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" type="text/css">
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin+Sketch:700">
-<link href="http://iwantaneff.in/custom.webkit.scrollbar.css" rel="stylesheet" type="text/css">
-<link href="lib/gradient-button.css" rel="stylesheet" type="text/css">
-<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-<style>::-moz-selection{ background: #000; color: white; text-shadow: none; }::selection { background:#000; color:white; text-shadow: none; }</style>
-
-<script src="http://platform.twitter.com/anywhere.js?id=xh7kKTGCXxGVXrRIPwuzZA&v=1"></script>
-<script src="http://cdn.sublimevideo.net/js/i76k8brm.js"></script>
-<script>
-    (function() {
-        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
-        t.parentNode.insertBefore(s, t);
-    })();
-</script>
-</head>
-
-<body oncontextmenu="window.open('http://edanhewitt.com/')">
-
-<h1>iwantaneff.in / toolset</h1>
-<pre id="intro">
+   <head>
+      <meta charset="utf-8" />
+      <title>I want an effin toolset is a suite of tools + resources for web developers. iwantaneffin toolset iwantaneff.in toolset effin tools mothereffin toolset</title>
+      <!--
+         http://iwantaneff.in/toolset/html/asciimation/
+         http://iwantaneff.in/toolset/html/asciimation.cube/
+         http://iwantaneff.in/toolset/html/beautifier/
+         http://iwantaneff.in/toolset/html/bookmarklet/
+         http://iwantaneff.in/toolset/html/css.sanitizer/
+         http://iwantaneff.in/toolset/html/datauri/
+         http://iwantaneff.in/toolset/html/entifier/
+         http://iwantaneff.in/toolset/html/favicon/
+         http://iwantaneff.in/toolset/html/flower/
+         http://iwantaneff.in/toolset/html/game-of-cloudapp-roulette/
+         http://iwantaneff.in/toolset/html/game.of.pacman/
+         http://iwantaneff.in/toolset/html/glitcher/
+         http://iwantaneff.in/toolset/html/jjencoder/
+         http://iwantaneff.in/toolset/html/link.list.opener/
+         http://iwantaneff.in/toolset/html/notice/
+         http://iwantaneff.in/toolset/html/packer/
+         http://iwantaneff.in/toolset/html/repeat/
+         http://iwantaneff.in/toolset/html/shuffler/
+         http://iwantaneff.in/toolset/html/slug/
+         http://iwantaneff.in/toolset/html/smiley/
+         http://iwantaneff.in/toolset/html/star
+         http://iwantaneff.in/toolset/html/textarea/
+         http://iwantaneff.in/toolset/html/unicode.table/
+         http://iwantaneff.in/unicode-smart-car
+         http://iwantaneff.in/demo/
+         http://iwantaneff.in/linkdump/
+         http://iwantaneff.in/twitter/
+         http://iwantaneff.in/forum/
+         http://iwantaneff.in/feed/
+         http://iwantaneff.in/cursor.css
+         http://iwantaneff.in/facebook.ping
+         http://iwantaneff.in/custom.webkit.scrollbar.css
+         -->
+      <meta name="description" content="I want an effin toolset is a suite of tools + resources for web developers." />
+      <meta name="author" content="David Higgins" />
+      <meta name="keywords" content="escapers,javascript,webdev,web-development,html5,js,unicode,tools,iwantaneffin,effin,mothereffin,developers" />
+      <meta name="robots" content="index,follow" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=" />
+      <link rel="humans" href="http://iwantaneff.in/humans.txt" />
+      <link rel="image_src" href="http://iwantaneff.in/facebook.ping" />
+      <meta property="og:title" content="iwantaneff.in iwantaneffin" />
+      <meta property="og:url" content="http://iwantaneff.in/" />
+      <meta property="og:image" content="http://iwantaneff.in/facebook.ping" />
+      <meta property="og:site_name" content="iwantaneff.in/*" />
+      <link href="lib/global.css" rel="stylesheet" type="text/css" />
+      <link href="lib/css.dev.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Maven+Pro" type="text/css" />
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" type="text/css" />
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin+Sketch:700" />
+      <link href="http://iwantaneff.in/custom.webkit.scrollbar.css" rel="stylesheet" type="text/css" />
+      <link href="lib/gradient-button.css" rel="stylesheet" type="text/css" />
+      <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+      <style>::-moz-selection{ background: #000; color: white; text-shadow: none; }::selection { background:#000; color:white; text-shadow: none; }</style>
+      <script src="http://platform.twitter.com/anywhere.js?id=xh7kKTGCXxGVXrRIPwuzZA&amp;v=1"></script>
+   </head>
+   <body>
+      <h1>iwantaneff.in / toolset</h1>
+      <pre id="intro">
 <b>I want an effin toolset</b> is a suite of tools &amp; resources for web developers.
-These are tools, the web developer <b>@_davidhiggins_</b> uses frequently.
+These are tools, the web developer <b>@_higg_</b> uses frequently.
 I want a site where I have instant (worldwide) access to the tools I love the most.
 I got the idea from <b>@mathias</b>. He has some tools, too, at: <a href="http://mothereff.in/" target="_blank">http://mothereff.in/</a>
 
-<b>NEW:</b> <span class="icos">e</span> <a href="http://iwantaneff.in/stream" target="_blank">iwantaneff.in / stream</a>
-<b>NEW:</b> <span class="icos">c</span> <a href="http://iwantaneff.in/feed" target="_blank">iwantaneff.in / feed</a>
-<b>NEW:</b> <span class="ico">o</span> <a href="http://iwantaneff.in/forum" target="_blank">iwantaneff.in / forum</a>
+This /toolset/ directory is not the only project on this server. I also host a number of separate open-source projects on it too. Check them out below →
 
-<div class="social"></div>
-</pre>
+<a class="button green" href="http://iwantaneff.in/stream/">EFFIN TWITTER STREAM</a>&nbsp;<a class="button green" href="http://iwantaneff.in/forum/">HTML5 FORUM</a>&nbsp;&nbsp;<a class="button green" href="http://iwantaneff.in/linkdump/">LINKDUMP</a>&nbsp;<a class="button green" href="http://iwantaneff.in/repo/">HANDPICKED JQUERY PLUGINS</a>&nbsp;<a class="button green" href="http://iwantaneff.in/feed/">RSS FEED</a>&nbsp;<a class="button green" href="http://iwantaneff.in/filedump/">FILEDUMP</a>&nbsp;
 
-<details>
-<summary style="-moz-user-select: none;" class="d"><span class="ico">-</span> All about David</summary>
-<span style="display: none;">
-<p>
-David is a hobbyist <cite title="JavaScript,PHP,HTML5+CSS3">coder</cite> who specialises in <cite title="ripping">curating</cite> the best parts of the web, and helping others get more exposure for their work. An example of his online virtual museums and other projects are below ↓
-</p>
+<div id="shareme" data-url="http://iwantaneff.in/toolset/" data-text="I want an effin toolset." data-title="share this page"></div></pre>
+      <details>
+         <summary style="-moz-user-select: none;">All about David</summary>
+         <span style="display: none;" />
+         <p>
+            David is a hobbyist <cite title="JavaScript,PHP,HTML5+CSS3">coder</cite> who specializes in <cite title="ripping">curating</cite> the best parts of the web, and helping others get more exposure for their work. An example of his online virtual museums and other projects are below ↓
+         </p>
+         <ul class="list">
+            → <a href="http://codepirat.es/" target="_blank">The Github Pirates</a><br />
+            → <a href="http://iwantaneff.in/repo/" target="_blank">The Handpicked jQuery Repo</a><br />
+            → <a href="http://davidhiggins.me/lab/index.html" target="_blank">David's Lab Items</a><br />
+            → <a href="http://u-n-i.co/de/" target="_blank">Unicode Tools</a><br />
+            → <a href="http://r3versin.com/" target="_blank">Reverse The Web</a><br />
+            → <a href="http://r3versin.com/redux/" target="_blank">H5BP Redux - HTML5 Boilerplate, with a few extra things added</a><br />
+            → <a href="http://iwantaneff.in/linkdump/" target="_blank">Frontend Links</a>
+         </ul>
+         <p>
+            <a href="http://twitter.com/_higg_"><img src="lib/fd.png" alt="Follow _higg_ on Twitter" /></a>
+            &nbsp;
+            <a href="http://www.twylah.com/_higg_/"><img src="http://assets0.twylah.com/images/badges/lightbadge_b.png" alt="_higg_ Twylah Fan Page" /></a>
+            &nbsp;
+            <a href="http://pinterest.com/0x0/"><img src="http://passets-cdn.pinterest.com/images/about/buttons/follow-me-on-pinterest-button.png" width="169" height="28" alt="Follow Me on Pinterest" /></a>
+            &nbsp;
+            <a href="http://vizualize.me/davidhiggins?r=davidhiggins" title="Edan Hewitt's infographic CV on vizualize.me"><img src="http://vizualize.me/media/img/socialicons/viewmyviz.png" /></a>
+            &nbsp;
+            <a href="mailto:manicrider%40gmail.com" title="ZOMG. People still use E-Mail for correspondence. OMG."><img src="lib/email.png" /></a>
+         </p>
+         <span>
+         <a href="http://davidhiggins.me/" class="light" target="_blank">FIND OUT MORE ABOUT DAVID</a>
+         </span>
+      </details>
+      <h2>Devtools</h2>
+      <section>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>hotpink/</b></summary>
+            <span style="display: none;">
+               <p>
+                  Hotpink. My favourite <a href="http://dribbble.com/colors/fe57a1">Dribbble colour</a>. Often-times I would find myself hunting down the hex-code of this colour fervently when I wanted to bang out a website really quickly. Now I have almost 'command line' access to the hex-code via the address bar.
+               </p>
+               <a href="html/hotpink/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>entifier/</b></summary>
+            <span style="display: none;">
+               <p>
+                  You have HTML code you want to place in a &lt;PRE&gt; tag element. You want it entified, so it plays nice with your &lt;PRE&gt; tag. This does that.
+               </p>
+               <a href="html/entifier/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>datauri/</b></summary>
+            <span style="display: none;">
+               <p>
+                  A homage to the wonderful tool <a href="http://bocoup.com/">Bocoup</a> have released. You need to covert raw bytecode to base64 encoded URI data. This does that
+               </p>
+               <a href="html/datauri/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>packer/</b></summary>
+            <span style="display: none;">
+               <p>
+                  You have JavaScript. You need to pack it to a <i>really</i> small size. This does that. Based on Ben Alman's (@cowboy's) <a href="https://github.com/cowboy/javascript-packify">packer script.</a> Only works with single line JavaScript. Use <a href="http://dean.edwards.name/packer/" target="_blank">this tool</a> to get a single line of JS.
+               </p>
+               <a href="html/packer/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>favicon/</b></summary>
+            <span style="display: none;">
+               <p>
+                  Sometimes Apache servers cry when you don't include a Favicon reference in your HTML file. It is best you contain the data URI snippet with an actual favicon placed in the root of your domain, plus one in the root of the subfolder (if there is one). E.g: http://domain.com/favicon.ico , http://domain.com/folder/favicon.ico
+               </p>
+               <a href="html/favicon/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>textarea/</b></summary>
+            <span style="display: none;">
+               <p>
+                  Sometimes you just need a textarea, right? Sometimes I work on locked down machines, where tools like Textmate, or if on Windows, notepad; aren't available. Also, because Firefox has the spellchecker turned on by default, I can check my spelling really quickly.
+               </p>
+               <a href="html/textarea/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>beautifier/</b></summary>
+            <span style="display: none;">
+               <p>
+                  Formats and prettifies Ugly JavaScript. Based off <a href="http://jsbeautifier.org/" target="_blank">the tool here</a>. If, for whatever reason, the tool gets taken offline, here is a backup ;). Plus I never used the sidebar on the official one, so I removed it.
+               </p>
+               <a href="html/beautifier/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>bookmarklet/</b></summary>
+            <span style="display: none;">
+               <p>
+                  You have JavaScript. You need a <a href="http://en.wikipedia.org/wiki/Bookmarklet" target="_blank">bookmarklet</a>. This does that.
+               </p>
+               <a href="html/bookmarklet/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>notice/</b></summary>
+            <span style="display: none;">
+               <p>
+                  Your site breaks, fails, and generally just doesn't work in IE6? Re-direct your users to this tongue in cheek notifier page. Yeah, I'm a modern browser fanboy. If this offends you, don't complain. IE6 is <a href="http://www.ie6countdown.com/" target="_blank">officialy dead</a>, anyways. And the latest IE is <i>apparently</i> lightyears ahead of previous versions. If you dislike IE6, you might want to check this: <a href="http://isharefil.es/BegE" target="_blank">http://isharefil.es/BegE</a>
+               </p>
+               <a href="html/notice/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>slug/</b></summary>
+            <span style="display: none;">
+               <p>
+                  You have a string like this: This is my wondérful élongated blog post tïtle. You want to see a URI/URL friendly version of it that agrees with search engines + browsers, and turns it into something like this: wondrful-longated-blog-post-ttle. This tool will do that.
+               </p>
+               <a href="html/slug/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>JJ Encoder/</b></summary>
+            <span style="display: none;">
+               <p>
+                  The wonderful tool at UTF8.jp reincarnated and open sourced here, on iwantaneff.in. You have JS you need obfuscated beyond recognition. This does that.
+               </p>
+               <a href="html/jjencoder/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <h2>Unicode</h2>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>unicode.table/</b></summary>
+            <span style="display: none;">
+               <p>
+                  A JavaScript generated list of every single Unicode character known to man. For <a href="http://u-n-i.co/de/" target="_blank">Unicode junkies</a> like me
+               </p>
+               <a href="html/unicode.table/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>css.sanitizer/</b></summary>
+            <span style="display: none;">
+               <p>
+                  You have a Unicode symbol you want to use in your .CSS file. You need to sanitize it for ASCII based text editors. This does that. Only works on character ranges <a href="http://unicode.org/roadmaps/bmp/" target="_blank">inside the BMP</a>.
+               </p>
+               <a href="html/css.sanitizer/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>star/ &#9733;</b></summary>
+            <span style="display: none;">
+               <p>
+                  Quick access to the most copied-and-pasted Unicode symbol, evar. &#9733;
+               </p>
+               <a href="html/star/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>flower/ &#10047;</b></summary>
+            <span style="display: none;">
+               <p>
+                  Quick access to the most copied-and-pasted Unicode symbol, evar. &#10047;
+               </p>
+               <a href="html/flower/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>smiley/ &#9786;</b></summary>
+            <span style="display: none;">
+               <p>
+                  Quick access to the most copied-and-pasted Unicode symbol, evar. A <a href="http://smileyfor.eu" target="_blank">dedicated domain</a> exists for this tool too. &#9786;
+               </p>
+               <a href="html/smiley/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <h2>Resources</h2>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>custom.webkit.scrollbar.css</b></summary>
+            <span style="display: none;">
+               <p>
+                  You can link directly to this CSS file, as it's very small in filesize. This has also been featured in <a href="http://r3versin.com/redux/" target="_blank">H5BP Redux</a>. It's there if you want your site to have custom webkit scrollbars in Chrome/Safari.
+               </p>
+               <a href="/custom.webkit.scrollbar.css" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>facebook.ping</b></summary>
+            <span style="display: none;">
+               <p>
+                  You can use this PNG if you are tired of creating custom graphics for Facebook Open Graph HTML &lt;meta&gt; tag directives. It was renamed PNG to PING because I don't allow hotlinking to this site. This has also been featured in <a href="http://r3versin.com/redux/" target="_blank">H5BP Redux</a>. Here's a HTML code example:<br /><br />
 
-<ul class="list">
-<li>..... <a href="http://codepirat.es/" target="_blank">The Github Pirates</a>
-<li>..... <a href="http://iwantaneff.in/repo/" target="_blank">The Handpicked jQuery Repo</a>
-<li>..... <a href="http://davidhiggins.me/lab/index.html" target="_blank">David's Lab Items</a>
-<li>..... <a href="http://u-n-i.co/de/" target="_blank">Unicode Tools</a>
-<li>..... <a href="http://r3versin.com/" target="_blank">Reverse The Web</a>
-<li>..... <a href="http://r3versin.com/redux/" target="_blank">H5BP Redux - HTML5 Boilerplate, with a few extra things added</a>
-<li>..... <a href="http://iwantaneff.in/linkdump/" target="_blank">Frontend Links</a>
-</ul>
-
-
-<p>
-<a href="http://higg.in/" class="zocial posterous"><span>READ DAVID'S POSTEROUS</span></a>&nbsp;
-<a href="http://twitter.com/_davidhiggins_" class="zocial twitter"><span>FOLLOW DAVID</span></a>
-</p>
-<p>
-<a href="http://www.twylah.com/_davidhiggins_/"><img src="http://assets0.twylah.com/images/badges/lightbadge_b.png" alt="_davidhiggins_ Twylah Fan Page"/></a>
-&nbsp;
-<a href="http://pinterest.com/0x0/"><img src="http://passets-cdn.pinterest.com/images/about/buttons/follow-me-on-pinterest-button.png" width="169" height="28" alt="Follow Me on Pinterest" /></a>
-&nbsp;
-<a href="http://vizualize.me/davidhiggins?r=davidhiggins" title="Edan Hewitt's infographic CV on vizualize.me"><img src='http://vizualize.me/media/img/socialicons/viewmyviz.png'/></a>
-&nbsp;
-<a href="mailto:manicrider%40gmail.com" title="ZOMG. People still use E-Mail for correspondence. OMG."><img src='http://f.cl.ly/items/24043a1A0d123s1c352y/email.png'/></a>
-</p>
-
-<span>
-<a href="http://davidhiggins.me/" class="light" target="_blank">FIND OUT MORE ABOUT DAVID</a>
-</span>
-
-</details>
-
-<h2>Devtools</h2>
-
-<section>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>stream/</b></summary>
-<span style="display: none;">
-<p>
-A <a href="https://code.google.com/p/sweetcron/" target="_blank">Sweetcron</a> powered Twitter stream of all the best curators and awesome-link sharers the world has ever seen. Use this to browse the frontend zeitgeist. I check this daily for a daily web development snack, and you should too.
-</p>
-<a href="http://iwantaneff.in/stream/" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>packer/</b></summary>
-<span style="display: none;">
-<p>
-You have JavaScript. You need to pack it to a <i>really</i> small size. This does that. Based on Ben Alman's (@cowboy's) <a href="https://github.com/cowboy/javascript-packify">packer script.</a> Only works with single line JavaScript. Use <a href="http://dean.edwards.name/packer/" target="_blank">this tool</a> to get a single line of JS.
-</p>
-<a href="html/packer/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>entifier/</b></summary>
-<span style="display: none;">
-<p>
-You have HTML code you want to place in a &lt;PRE&gt; tag element. You want it entified, so it plays nice with your &lt;PRE&gt; tag. This does that.
-</p>
-<a href="html/entifier/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>bookmarklet/</b></summary>
-<span style="display: none;">
-<p>
-You have JavaScript. You need a <a href="http://en.wikipedia.org/wiki/Bookmarklet" target="_blank">bookmarklet</a>. This does that.
-</p>
-<a href="html/bookmarklet/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-			
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>datauri/</b></summary>
-<span style="display: none;">
-<p>
-A homage to the wonderful tool <a href="http://bocoup.com/">Bocoup</a> have released. You need to covert raw bytecode to base64 encoded URI data. This does that
-</p>
-<a href="html/datauri/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>favicon/</b></summary>
-<span style="display: none;">
-<p>
-Sometimes Apache servers cry when you don't include a Favicon reference in your HTML file. It is best you contain the data URI snippet with an actual favicon placed in the root of your domain, plus one in the root of the subfolder (if there is one). E.g: http://domain.com/favicon.ico , http://domain.com/folder/favicon.ico</p>
-<a href="html/favicon/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>textarea/</b></summary>
-<span style="display: none;">
-<p>
-Sometimes you just need a textarea, right? Sometimes I work on locked down machines, where tools like Textmate, or if on Windows, notepad; aren't available. Also, because Firefox has the spellchecker turned on by default, I can check my spelling really quickly.
-</p>
-<a href="html/textarea/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>beautifier/</b></summary>
-<span style="display: none;">
-<p>
-Formats and prettifies Ugly JavaScript. Based off <a href="http://jsbeautifier.org/" target="_blank">the tool here</a>. If, for whatever reason, the tool gets taken offline, here is a backup ;). Plus I never used the sidebar on the official one, so I removed it.</p>
-<a href="html/beautifier/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>notice/</b></summary>
-<span style="display: none;">
-<p>
-Your site breaks, fails, and generally just doesn't work in IE? Re-direct your users to this tongue in cheek notifier page. Yeah, I'm a modern browser fanboy. If this offends you, don't complain. IE6 is <a href="http://www.ie6countdown.com/" target="_blank">officialy dead</a>, anyways. And the latest IE is <i>apparently</i> lightyears ahead of previous versions. If you dislike IE, you might want to check this: <a href="http://isharefil.es/BegE" target="_blank">http://isharefil.es/BegE</a>
-</p>
-<a href="html/notice/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>slug/</b></summary>
-<span style="display: none;">
-<p>
-You have a string like this: This is my wondérful élongated blog post tïtle. You want to see a URI/URL friendly version of it that agrees with search engines + browsers, and turns it into something like this: wondrful-longated-blog-post-ttle. This tool will do that.
-</p>
-<a href="html/slug/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>JJ Encoder/</b></summary>
-<span style="display: none;">
-<p>
-The wonderful tool at UTF8.jp reincarnated and open sourced here, on iwantaneff.in. You have JS you need obfuscated beyond recognition. This does that.
-</p>
-<a href="html/jjencoder/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<h2>Unicode</h2>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>unicode.table/</b></summary>
-<span style="display: none;">
-<p>
-A JavaScript generated list of every single Unicode character known to man. For <a href="http://u-n-i.co/de/" target="_blank">Unicode junkies</a> like me</p>
-<a href="html/unicode.table/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>css.sanitizer/</b></summary>
-<span style="display: none;">
-<p>
-You have a Unicode symbol you want to use in your .CSS file. You need to sanitize it for ASCII based text editors. This does that. Only works on character ranges <a href="http://unicode.org/roadmaps/bmp/" target="_blank">inside the BMP</a>.
-</p>
-<a href="html/css.sanitizer/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>star/ &#9733;</b></summary>
-<span style="display: none;">
-<p>
-Quick access to the most copied-and-pasted Unicode symbol, evar. &#9733;
-</p>
-<a href="html/star/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>flower/ &#10047;</b></summary>
-<span style="display: none;">
-<p>
-Quick access to the most copied-and-pasted Unicode symbol, evar. &#10047;
-</p>
-<a href="html/flower/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>smiley/ &#9786;</b></summary>
-<span style="display: none;">
-<p>
-Quick access to the most copied-and-pasted Unicode symbol, evar. A <a href="http://smileyfor.eu" target="_blank">dedicated domain</a> exists for this tool too. &#9786;
-</p>
-<a href="html/smiley/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<h2>Resources</h2>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>custom.webkit.scrollbar.css</b></summary>
-<span style="display: none;">
-<p>
-You can link directly to this CSS file, as it's very small in filesize. This has also been featured in <a href="http://r3versin.com/redux/" target="_blank">H5BP Redux</a>. It's there if you want your site to have custom webkit scrollbars in Chrome/Safari.
-</p>
-<a href="/custom.webkit.scrollbar.css" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>facebook.ping</b></summary>
-<span style="display: none;">
-<p>
-You can use this PNG if you are tired of creating custom graphics for Facebook Open Graph HTML &lt;meta&gt; tag directives. It was renamed PNG to PING because I don't allow hotlinking to this site. This has also been featured in <a href="http://r3versin.com/redux/" target="_blank">H5BP Redux</a>. Here's a HTML code example:<br>
-<pre>
 &lt;meta property="og:image" content="http://iwantaneff.in/facebook.ping" /&gt;
-</pre>
-</p>
-<a href="/facebook.png" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
 
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>cursor.css</b></summary>
-<span style="display: none;">
-<p>
-Did you know CSS has <i>a vast number</i> of options regarding cursors you can use on your HTML5 elements? As ever, you can always hotlink to our <a href="http://iwantaneff.in/cursor.css">cursor.css</a> file which is hosted by Cloudflare's CDN (Content Delivery Network). You might want to visit <a href="http://trac.webkit.org/export/37902/trunk/WebCore/manual-tests/cursor.html" target="_blank">this page</a> for live demos of all the cursors you can use. Example:
-<div style="background: none repeat scroll 0% 0% rgb(254, 87, 161); cursor: crosshair;">crosshair</div><br>
-<div style="background: none repeat scroll 0% 0% rgb(254, 87, 161); cursor: move;">move</div>
-</p>
-<a href="/cursor.css" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<h2>Misc tools</h2>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>game-of-cloudapp-roulette/</b></summary>
-<span style="display: none;">
-<p>
-What this program does is generate a random 4 letter alphanumberic file ID, and appends it to a cloudapp URL. It then opens ten browser tabs / windows so you can see what Cloudapp item exists there.
-</p>
-<a href="html/game-of-cloudapp-roulette/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>repeat/</b></summary>
-<span style="display: none;">
-<p>
-I always hated typing out a FOR loop really quickly when I wanted to repeat text multiple times. Why would someone want to repeat text multiple times? See this: <a href="http://isharefil.es/DV7b" target="_blank">http://isharefil.es/DV7b</a>
-</p>
-<a href="html/repeat/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>glitcher</b></summary>
-<span style="display: none;">
-<p>
-You have text. You need to fuck it up, <a href="http://www.flickriver.com/search/glitch+art/" target="_blank">glitch art</a> style. This does that. Based off <a href="http://glitchtweet.com/" target="_blank">the tool here.</a>
-</p>
-<a href="html/glitcher/index.html" class="light">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>shuffler</b></summary>
-<span style="display: none;">
-<p>
-You have text you don't want to repeat multiple times over, so you shuffle it to make it look unique. Try it, it makes the internet a less samey-place.
-</p>
-<a href="html/shuffler/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>link.list.opener</b></summary>
-<span style="display: none;">
-<p>
-You have a bunch of cyberlocker links. You need to open them all at once. This does that.
-</p>
-<a href="html/link.list.opener/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-
-<h2>Demos + Fun</h2>
-
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>asciimation/</b></summary>
-<span style="display: none;">
-<p id="humans-txt">
-A script that animates a very long ASCII rendering of a star. If you want a plain text-file, you can check my humans.txt here: <a href="http://davidhiggins.me/humans.txt" target="_blank">davidhiggins.me/humans.txt</a>. The TXT file was <a href="http://twitter.com/divya/status/139044029403889664" target="_blank">tweeted about</a> by @Divya, and went slightly viral as a result :) It now has a home on Chrome experiments!
-</p>
-<a href="http://www.chromeexperiments.com/detail/asciimations/" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>unicode-smart-car</b></summary>
-<span style="display: none;">
-<p>
-A unicode smart car animation, taken from <b id="car">@smartArg</b> on Twitter.
-</p>
-<a href="http://davidhiggins.me/car/" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>demo</b></summary>
-<span style="display: none;">
-<p>
-Two demos I made showcasing just how far you can push the HTML5 &lt;PROGRESS&gt; element .
-</p>
-<a href="http://davidhiggins.me/progress/a/index.html" class="light" target="_blank">Demo A</a>
-<a href="http://davidhiggins.me/progress/b/index.html" class="light" target="_blank">Demo B</a>
-</span>
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>game.of.pacman/</b></summary>
-<span style="display: none;">
-<p>
-Sometimes you're just bored! This is a homage to Google's Pacman <a href="http://www.google.com/pacman/">available here</a> I never liked the way Google encased the game within the 'frame' of their site, so here's a site-rip!</p>
-<a href="html/game.of.pacman/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-</details>
-
-<h2>Projects + Sites</h2>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>forum/</b></summary>
-<span style="display: none;">
-<p>
-<a href="http://iwantaneff.in/forum">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKMAAAAgAgMAAAADJiBlAAAADFBMVEXpeS7////ul1ygShG+8fqSAAAAs0lEQVR4Xu3RMYrDQAyF4afi3cC6j1y4l0HvjsueMZDMzJoQx2Fx4TJ/oWm+4sHg92Q/uLpvlpZSeZoYgBKULpLFLi3xr0TBJ/omGYAHlyWcSxQ8P0oFxlNUl1oF1SalF8mxsyyLySZTnNP3stXlXF12FONUk9hLTl0CR6l47nyXgVcZqrOSepPlgxwlfC8tnRLX7NKyCabGzvwoTX9STZr03HmUUGx/xIB8SE9c3rf7yW4PC9mI+l19/UsAAAAASUVORK5CYII=" alt="HTML5 Forum" title="HTML5 Forum" />
-</a>
-<p>
-This is a forum dedicated to HTML5, and the open web in general. David invites everyone to come in &amp; learn about HTML5, JS, and CSS3.
-</p>
-<a href="http://iwantaneff.in/forum/" class="light" target="_blank">Yes, Please</a>
-</span>
-
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>linkdump/</b></summary>
-<span style="display: none;">
-<p>
-Frontend Links is a collection of links related to web development, curated, and handpicked by the watchful eye of David Higgins. The links, are in no particular order, apart from being loosely categorized. The author does not expect you to digest all these links at once. However, feel free to have a good perusal. Do not complain that some of the links are broken. These links were harvested from teh interwebz since early 2011. For a more recent link-list, you might want to check <a href="http://r3versin.com/blog/pinboard/" target="_blank">David's Pinboard Dump.</a> </p>
-<a href="http://iwantaneff.in/linkdump/" class="light" target="_blank">Yes, Please</a>
-</span>
-
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>filedump/</b></summary>
-<span style="display: none;">
-<p>
-I store a lot of files on Amazon AWS. Thankfuly, Amazon have provided <a href="http://aws.amazon.com/code/Amazon-S3/1713" target="_blank">a script</a> that publicly lists what items are stored in an S3 bucket. I manage my filedump folder using a program called <a href="http://s3browser.com/" target="_blank">S3 Browser</a>.
-</p>
-<a href="/filedump/" class="light" target="_blank">Yes, Please</a>
-</span>
-
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>facebook/</b></summary>
-<span style="display: none;">
-<p>
-A net-art project, where I exhibit my old Facebook account for all to see. It was always meant to be out in the open anyways.
-</p>
-<a href="../facebook/index.html" class="light" target="_blank">Yes, Please</a>
-</span>
-
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>twitter/</b></summary>
-<span style="display: none;">
-<p>
-A Tweetnest / online backup of my Twitter account. Check back often if you want to see what I'm upto. 
-</p>
-<a href="http://iwantaneff.in/twitter/" class="light" target="_blank">Yes, Please</a>
-</span>
-
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>feed/</b></summary>
-<span style="display: none;">
-<p>
-RSS Linkdump of all material related to <a href="http://edanhewitt.com/" target="_blank">The Edan Hewitt Project</a>. Edan is a client I worked for who propagatez teh dev materialz into tha interwebbs.
-</p>
-<a href="http://iwantaneff.in/feed/" class="light" target="_blank">Yes, Please</a>
-</span>
-
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>screencast/</b></summary>
-<span style="display: none;">
-<p>
-A screencast of David Explaining this site.
-</p>
-
-<p>
-<video class="sublime" poster="http://f.cl.ly/items/2N133819213l391l433g/vlcsnap-2012-04-23-18h32m01s89.png" width="500" height="281" data-uid="363344a0" preload="none">
-  <source src="http://dl.dropbox.com/u/54191090/93966973.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"' />
-</video>
-</p>
-
-</span>
-
-</details>
-
-<details>
-<summary style="-moz-user-select: none;">iwantaneff.in/<b>linklist/</b></summary>
-<span style="display: none;">
-<p>
-Basically a sitemap for all my projects, and blogposts. Makes it easier for the search engines to crawl my posts. This will get updated every 6 months. This is everything I have so far. Enjoy! This is really for the bots.
-</p>
-
-<p>
-<a href="http://flavors.me/eire/">http://flavors.me/eire/</a><br>
-<a href="http://u-n-i.co/">http://u-n-i.co/</a><br>
-<a href="http://davidhiggins.me/">http://davidhiggins.me/</a><br>
-<a href="http://github.com/higgo/">http://github.com/higgo/</a><br>
-<a href="http://pinboard.in/u:em">http://pinboard.in/u:em</a><br>
-<a href="http://iwantaneff.in/repo/">http://iwantaneff.in/repo/</a><br>
-<a href="http://iwantaneff.in/repo/browser/">http://iwantaneff.in/repo/browser/</a><br>
-<a href="http://codepirat.es/">http://codepirat.es/</a><br>
-<a href="http://smileyfor.eu/">http://smileyfor.eu/</a><br>
-<a href="http://higg.in/">http://higg.in/</a><br>
-<a href="http://davidhiggins.me/+">http://davidhiggins.me/+</a><br>
-<a href="http://r3versin.com/">http://r3versin.com/</a><br>
-<a href="http://r3versin.com/uplaods/css/">http://r3versin.com/uplaods/css/</a><br>
-<a href="http://r3versin.com/uploads/js/">http://r3versin.com/uploads/js/</a><br>
-<a href="http://higg.in/+">http://higg.in/+</a><br>
-<a href="http://eire-media.com/reversin.blog/">http://eire-media.com/reversin.blog/</a><br>
-<a href="http://eire-media.com/roulette/">http://eire-media.com/roulette/</a><br>
-<a href="http://eire-media.com/tumblr/">http://eire-media.com/tumblr/</a><br>
-<a href="http://eire-media.com/landing/">http://eire-media.com/landing/</a><br>
-<a href="http://eire-media.com/linkdump/">http://eire-media.com/linkdump/</a><br>
-<a href="http://eire-media.com/toolset/">http://eire-media.com/toolset/</a><br>
-<a href="http://eire-media.com/higg/">http://eire-media.com/higg/</a><br>
-<a href="http://eire-media.com/repos/">http://eire-media.com/repos/</a><br>
-<a href="http://eire-media.com/smiley/">http://eire-media.com/smiley/</a><br>
-<a href="http://eire-media.com/pirates/">http://eire-media.com/pirates/</a><br>
-<a href="http://edanhewitt.com/stats/">http://edanhewitt.com/stats/</a><br>
-<a href="http://iwantaneff.in/toolset/html/asciimation/">http://iwantaneff.in/toolset/html/asciimation/</a><br>
-<a href="http://iwantaneff.in/toolset/html/asciimation.cube/">http://iwantaneff.in/toolset/html/asciimation.cube/</a><br>
-<a href="http://iwantaneff.in/toolset/html/beautifier/">http://iwantaneff.in/toolset/html/beautifier/</a><br>
-<a href="http://iwantaneff.in/toolset/html/bookmarklet/">http://iwantaneff.in/toolset/html/bookmarklet/</a><br>
-<a href="http://iwantaneff.in/toolset/html/css.sanitizer/">http://iwantaneff.in/toolset/html/css.sanitizer/</a><br>
-<a href="http://iwantaneff.in/toolset/html/datauri/">http://iwantaneff.in/toolset/html/datauri/</a><br>
-<a href="http://iwantaneff.in/toolset/html/entifier/">http://iwantaneff.in/toolset/html/entifier/</a><br>
-<a href="http://iwantaneff.in/toolset/html/favicon/">http://iwantaneff.in/toolset/html/favicon/</a><br>
-<a href="http://iwantaneff.in/toolset/html/flower/">http://iwantaneff.in/toolset/html/flower/</a><br>
-<a href="http://iwantaneff.in/toolset/html/game-of-cloudapp-roulette/">http://iwantaneff.in/toolset/html/game-of-cloudapp-roulette/</a><br>
-<a href="http://iwantaneff.in/toolset/html/game.of.pacman/">http://iwantaneff.in/toolset/html/game.of.pacman/</a><br>
-<a href="http://iwantaneff.in/toolset/html/glitcher/">http://iwantaneff.in/toolset/html/glitcher/</a><br>
-<a href="http://iwantaneff.in/toolset/html/jjencoder/">http://iwantaneff.in/toolset/html/jjencoder/</a><br>
-<a href="http://iwantaneff.in/toolset/html/link.list.opener/">http://iwantaneff.in/toolset/html/link.list.opener/</a><br>
-<a href="http://iwantaneff.in/toolset/html/notice/">http://iwantaneff.in/toolset/html/notice/</a><br>
-<a href="http://iwantaneff.in/toolset/html/packer/">http://iwantaneff.in/toolset/html/packer/</a><br>
-<a href="http://iwantaneff.in/toolset/html/repeat/">http://iwantaneff.in/toolset/html/repeat/</a><br>
-<a href="http://iwantaneff.in/toolset/html/shuffler/">http://iwantaneff.in/toolset/html/shuffler/</a><br>
-<a href="http://iwantaneff.in/toolset/html/slug/">http://iwantaneff.in/toolset/html/slug/</a><br>
-<a href="http://iwantaneff.in/toolset/html/smiley/">http://iwantaneff.in/toolset/html/smiley/</a><br>
-<a href="http://iwantaneff.in/toolset/html/star">http://iwantaneff.in/toolset/html/star</a><br>
-<a href="http://iwantaneff.in/toolset/html/textarea/">http://iwantaneff.in/toolset/html/textarea/</a><br>
-<a href="http://iwantaneff.in/toolset/html/unicode.table/">http://iwantaneff.in/toolset/html/unicode.table/</a><br>
-<a href="https://github.com/higgo/handpicked.jquery.plugins.repo">https://github.com/higgo/handpicked.jquery.plugins.repo</a><br>
-<a href="https://github.com/higgo/the.github.pirates">https://github.com/higgo/the.github.pirates</a><br>
-<a href="https://github.com/higgo/higgo.github.com">https://github.com/higgo/higgo.github.com</a><br>
-<a href="https://github.com/higgo/posterous">https://github.com/higgo/posterous</a><br>
-<a href="https://github.com/higgo/unicode.tools">https://github.com/higgo/unicode.tools</a><br>
-<a href="https://github.com/higgo/public.gists">https://github.com/higgo/public.gists</a><br>
-<a href="https://github.com/higgo/iwantaneff.in">https://github.com/higgo/iwantaneff.in</a><br>
-<a href="https://github.com/higgo/h5bp-redux">https://github.com/higgo/h5bp-redux</a><br>
-<a href="https://github.com/higgo/utopia.js.plus.docs">https://github.com/higgo/utopia.js.plus.docs</a><br>
-<a href="https://github.com/higgo/upload.resource">https://github.com/higgo/upload.resource</a><br>
-<a href="https://github.com/higgo/php.url.shortener.with.bitly">https://github.com/higgo/php.url.shortener.with.bitly</a><br>
-<a href="https://github.com/higgo/asciimation">https://github.com/higgo/asciimation</a><br>
-<a href="http://code.google.com/p/retrojs-oldskool-js-dhtml/">http://code.google.com/p/retrojs-oldskool-js-dhtml/</a><br>
-<a href="http://code.google.com/p/webfxwidgets/">http://code.google.com/p/webfxwidgets/</a><br>
-<a href="http://code.google.com/p/asmscroller/">http://code.google.com/p/asmscroller/</a><br>
-<a href="http://code.google.com/p/js-bezier-functions/">http://code.google.com/p/js-bezier-functions/</a><br>
-<a href="http://code.google.com/p/1kdomlib/">http://code.google.com/p/1kdomlib/</a><br>
-<a href="http://code.google.com/p/3dhtml/">http://code.google.com/p/3dhtml/</a><br>
-<a href="http://code.google.com/p/innerdiv/">http://code.google.com/p/innerdiv/</a><br>
-<a href="http://code.google.com/p/assembler-mirror/">http://code.google.com/p/assembler-mirror/</a><br>
-<a href="http://code.google.com/p/domapi/">http://code.google.com/p/domapi/</a><br>
-<a href="http://code.google.com/p/beehive2/">http://code.google.com/p/beehive2/</a><br>
-<a href="http://dev.edanhewitt.com/post/22678240125/jquerying-like-a-noob">http://dev.edanhewitt.com/post/22678240125/jquerying-like-a-noob</a><br>
-<a href="http://dev.edanhewitt.com/post/22678219352/medium-equals-message-4-best-javascript-or-jquery">http://dev.edanhewitt.com/post/22678219352/medium-equals-message-4-best-javascript-or-jquery</a><br>
-<a href="http://dev.edanhewitt.com/post/22678206483/matts-tumblog-continuing-website-development">http://dev.edanhewitt.com/post/22678206483/matts-tumblog-continuing-website-development</a><br>
-<a href="http://dev.edanhewitt.com/post/22678141276/move-that-parenthesis-james-padolsey">http://dev.edanhewitt.com/post/22678141276/move-that-parenthesis-james-padolsey</a><br>
-<a href="http://dev.edanhewitt.com/post/22678138811/youtube-browser-pre-alpha-demo-is-live">http://dev.edanhewitt.com/post/22678138811/youtube-browser-pre-alpha-demo-is-live</a><br>
-<a href="http://dev.edanhewitt.com/post/22678135322/sexylightbox-www-coders-me">http://dev.edanhewitt.com/post/22678135322/sexylightbox-www-coders-me</a><br>
-<a href="http://dev.edanhewitt.com/post/22677976107/javascript-styleguides-and-beautifiers">http://dev.edanhewitt.com/post/22677976107/javascript-styleguides-and-beautifiers</a><br>
-<a href="http://dev.edanhewitt.com/post/22677966784/fixie-js-automatic-filler-content">http://dev.edanhewitt.com/post/22677966784/fixie-js-automatic-filler-content</a><br>
-<a href="http://dev.edanhewitt.com/post/22677963926/torus-easeljs">http://dev.edanhewitt.com/post/22677963926/torus-easeljs</a><br>
-<a href="http://dev.edanhewitt.com/post/22677960774/demoing-and-displaying-javascript-at-the-same-time">http://dev.edanhewitt.com/post/22677960774/demoing-and-displaying-javascript-at-the-same-time</a><br>
-<a href="http://dev.edanhewitt.com/post/22340212920/edan-hewitt-hogan-js-may-1st-2012">http://dev.edanhewitt.com/post/22340212920/edan-hewitt-hogan-js-may-1st-2012</a><br>
-<a href="http://dev.edanhewitt.com/post/22339477061/jquery-edan-hewitt">http://dev.edanhewitt.com/post/22339477061/jquery-edan-hewitt</a><br>
-<a href="http://dev.edanhewitt.com/post/22330246607/libsass">http://dev.edanhewitt.com/post/22330246607/libsass</a><br>
-<a href="http://dev.edanhewitt.com/post/22223997576/heatmap-js-html5-canvas-heatmap-library">http://dev.edanhewitt.com/post/22223997576/heatmap-js-html5-canvas-heatmap-library</a><br>
-<a href="http://dev.edanhewitt.com/post/22223968533/iwantaneffin-toolset-iwantaneff-in-toolset-effin-tools">http://dev.edanhewitt.com/post/22223968533/iwantaneffin-toolset-iwantaneff-in-toolset-effin-tools</a><br>
-<a href="http://dev.edanhewitt.com/post/22219014450/jquery-selector-extensions">http://dev.edanhewitt.com/post/22219014450/jquery-selector-extensions</a><br>
-<a href="http://dev.edanhewitt.com/post/22219011656/jqapi-alternative-jquery-documentation">http://dev.edanhewitt.com/post/22219011656/jqapi-alternative-jquery-documentation</a><br>
-<a href="http://dev.edanhewitt.com/post/22217295614/roy-jin">http://dev.edanhewitt.com/post/22217295614/roy-jin</a><br>
-<a href="http://dev.edanhewitt.com/post/21745954745/how-this-works">http://dev.edanhewitt.com/post/21745954745/how-this-works</a><br>
-<a href="http://dev.edanhewitt.com/post/21639421020/democratizing-apis-your-data-is-owned-by-you">http://dev.edanhewitt.com/post/21639421020/democratizing-apis-your-data-is-owned-by-you</a><br>
-<a href="http://dev.edanhewitt.com/post/21509369245/feedz">http://dev.edanhewitt.com/post/21509369245/feedz</a><br>
-<a href="http://dev.edanhewitt.com/post/21407597492/html5-boilerplate-on-steroids">http://dev.edanhewitt.com/post/21407597492/html5-boilerplate-on-steroids</a><br>
-<a href="http://dev.edanhewitt.com/post/21300273410">http://dev.edanhewitt.com/post/21300273410</a><br>
-<a href="http://dev.edanhewitt.com/post/22678355075/mathjax">http://dev.edanhewitt.com/post/22678355075/mathjax</a><br>
-<a href="http://dev.edanhewitt.com/post/22678352005/renegade-rascals-an-introduction-to-impact-js">http://dev.edanhewitt.com/post/22678352005/renegade-rascals-an-introduction-to-impact-js</a><br>
-<a href="http://dev.edanhewitt.com/post/22678306984/lukejuntunen-in-other-news-i-finished-mostly">http://dev.edanhewitt.com/post/22678306984/lukejuntunen-in-other-news-i-finished-mostly</a><br>
-<a href="http://dev.edanhewitt.com/post/22678271577/best-open-source-resources-for-web-developers">http://dev.edanhewitt.com/post/22678271577/best-open-source-resources-for-web-developers</a><br>
-<a href="http://dev.edanhewitt.com/post/22678258409/ftwi-js">http://dev.edanhewitt.com/post/22678258409/ftwi-js</a><br>
-<a href="http://dev.edanhewitt.com/post/21300263192/javascript-closure-compiler">http://dev.edanhewitt.com/post/21300263192/javascript-closure-compiler</a><br>
-<a href="http://dev.edanhewitt.com/post/21300253441/spritebox-create-css-from-sprite-images">http://dev.edanhewitt.com/post/21300253441/spritebox-create-css-from-sprite-images</a><br>
-<a href="http://dev.edanhewitt.com/post/21300202935/online-json-viewer">http://dev.edanhewitt.com/post/21300202935/online-json-viewer</a><br>
-<a href="http://dev.edanhewitt.com/post/21300152627/d3-js-data-driven-documents">http://dev.edanhewitt.com/post/21300152627/d3-js-data-driven-documents</a><br>
-<a href="http://dev.edanhewitt.com/post/21300123538/javascript-essential-patterns-speaker-deck">http://dev.edanhewitt.com/post/21300123538/javascript-essential-patterns-speaker-deck</a><br>
-<a href="http://dev.edanhewitt.com/post/21300103175/moviepilot-labs-get-on-board-for-apps-berlin-js">http://dev.edanhewitt.com/post/21300103175/moviepilot-labs-get-on-board-for-apps-berlin-js</a><br>
-<a href="http://dev.edanhewitt.com/post/21299989558/jquery-file-upload-widget">http://dev.edanhewitt.com/post/21299989558/jquery-file-upload-widget</a><br>
-<a href="http://dev.edanhewitt.com/post/21299978062/amber-smalltalk-on-the-web">http://dev.edanhewitt.com/post/21299978062/amber-smalltalk-on-the-web</a><br>
-<a href="http://dev.edanhewitt.com/post/21299975385/how-to-spot-outdated-javascript">http://dev.edanhewitt.com/post/21299975385/how-to-spot-outdated-javascript</a><br>
-<a href="http://dev.edanhewitt.com/post/21299971652/stoljiz-right-now-thats-a-lie-because-there">http://dev.edanhewitt.com/post/21299971652/stoljiz-right-now-thats-a-lie-because-there</a><br>
-<a href="http://dev.edanhewitt.com/post/21297046912/i-want-an-effin-toolset-screencast-edan-hewitt">http://dev.edanhewitt.com/post/21297046912/i-want-an-effin-toolset-screencast-edan-hewitt</a><br>
-<a href="http://dev.edanhewitt.com/post/21294989194/the-handpicked-jquery-plugins-repository-david">http://dev.edanhewitt.com/post/21294989194/the-handpicked-jquery-plugins-repository-david</a><br>
-<a href="http://dev.edanhewitt.com/post/21294924120/this-post-is-dedicated-to-my-mentor-and-fellow">http://dev.edanhewitt.com/post/21294924120/this-post-is-dedicated-to-my-mentor-and-fellow</a><br>
-<a href="http://dev.edanhewitt.com/post/21294782844/on-being-meta-david-higgins-blog">http://dev.edanhewitt.com/post/21294782844/on-being-meta-david-higgins-blog</a><br>
-<a href="http://dev.edanhewitt.com/post/21294714892/tweets-david-higgins-blog">http://dev.edanhewitt.com/post/21294714892/tweets-david-higgins-blog</a><br>
-<a href="http://dev.edanhewitt.com/post/21294571437/oldskool-retro-dhtml-libraries-widgets-from">http://dev.edanhewitt.com/post/21294571437/oldskool-retro-dhtml-libraries-widgets-from</a><br>
-<a href="http://dev.edanhewitt.com/post/21294526563/html-document-template-david-higgins-blog">http://dev.edanhewitt.com/post/21294526563/html-document-template-david-higgins-blog</a><br>
-<a href="http://dev.edanhewitt.com/post/21294396828/we-need-a-better-way-to-share-files-on-the">http://dev.edanhewitt.com/post/21294396828/we-need-a-better-way-to-share-files-on-the</a><br>
-<a href="http://dev.edanhewitt.com/post/21294354290/on-sopa-and-internet-freedom-a-letter-to">http://dev.edanhewitt.com/post/21294354290/on-sopa-and-internet-freedom-a-letter-to</a><br>
-<a href="http://dev.edanhewitt.com/post/21285703766/http-bradshawenterprises-com-tests-formdemo-php">http://dev.edanhewitt.com/post/21285703766/http-bradshawenterprises-com-tests-formdemo-php</a><br>
-<a href="http://dev.edanhewitt.com/post/21285688437/html5-demos-and-examples">http://dev.edanhewitt.com/post/21285688437/html5-demos-and-examples</a><br>
-<a href="http://dev.edanhewitt.com/post/21285680298/feature-test-what-does-your-browser-support">http://dev.edanhewitt.com/post/21285680298/feature-test-what-does-your-browser-support</a><br>
-<a href="http://dev.edanhewitt.com/post/21285672873/html5-cross-browser-polyfills-modernizr-modernizr">http://dev.edanhewitt.com/post/21285672873/html5-cross-browser-polyfills-modernizr-modernizr</a><br>
-<a href="http://dev.edanhewitt.com/post/21285649091/smashing-html5">http://dev.edanhewitt.com/post/21285649091/smashing-html5</a><br>
-<a href="http://dev.edanhewitt.com/post/21285497750/silk">http://dev.edanhewitt.com/post/21285497750/silk</a><br>
-<a href="http://dev.edanhewitt.com/post/21285496164/flarevideo">http://dev.edanhewitt.com/post/21285496164/flarevideo</a><br>
-<a href="http://dev.edanhewitt.com/post/21285386220/internet-explorer-is-evil">http://dev.edanhewitt.com/post/21285386220/internet-explorer-is-evil</a><br>
-<a href="http://dev.edanhewitt.com/post/21285345593/explorer-destroyer-switch-to-firefox-make-money-from">http://dev.edanhewitt.com/post/21285345593/explorer-destroyer-switch-to-firefox-make-money-from</a><br>
-<a href="http://dev.edanhewitt.com/post/21285311950/ie7pro-the-ultimate-add-on-for-internet-explorer">http://dev.edanhewitt.com/post/21285311950/ie7pro-the-ultimate-add-on-for-internet-explorer</a><br>
-<a href="http://dev.edanhewitt.com/post/21285270297/ie6ify-bookmarklet">http://dev.edanhewitt.com/post/21285270297/ie6ify-bookmarklet</a><br>
-<a href="http://dev.edanhewitt.com/post/21285240530/crash-internet-explorer-just-by-visiting-this-page">http://dev.edanhewitt.com/post/21285240530/crash-internet-explorer-just-by-visiting-this-page</a><br>
-<a href="http://dev.edanhewitt.com/post/21281516335/share-bar-social-sharing">http://dev.edanhewitt.com/post/21281516335/share-bar-social-sharing</a><br>
-<a href="http://dev.edanhewitt.com/post/21085117247/chunky-css3-share-buttons-with-counters">http://dev.edanhewitt.com/post/21085117247/chunky-css3-share-buttons-with-counters</a><br>
-<a href="http://dev.edanhewitt.com/post/21085094496/the-next-ui-frame-js-is-a-function-sequencer-and">http://dev.edanhewitt.com/post/21085094496/the-next-ui-frame-js-is-a-function-sequencer-and</a><br>
-<a href="http://dev.edanhewitt.com/post/21085083129/lsdesignfirm-jquery-plugins-to-create-dynamic">http://dev.edanhewitt.com/post/21085083129/lsdesignfirm-jquery-plugins-to-create-dynamic</a><br>
-<a href="http://dev.edanhewitt.com/post/21085073377/frame-js-blog-frame-js-is-a-function-sequencer-and">http://dev.edanhewitt.com/post/21085073377/frame-js-blog-frame-js-is-a-function-sequencer-and</a><br>
-<a href="http://edanhewitt.com/blog/hogan/">http://edanhewitt.com/blog/hogan/</a><br>
-<a href="http://edanhewitt.com/blog/finch-js/">http://edanhewitt.com/blog/finch-js/</a><br>
-<a href="http://edanhewitt.com/blog/bgstretcher/">http://edanhewitt.com/blog/bgstretcher/</a><br>
-<a href="http://edanhewitt.com/blog/451/">http://edanhewitt.com/blog/451/</a><br>
-<a href="http://edanhewitt.com/blog/an-easy-to-use-photo-gallery-photoshow/">http://edanhewitt.com/blog/an-easy-to-use-photo-gallery-photoshow/</a><br>
-<a href="http://edanhewitt.com/blog/resizer/">http://edanhewitt.com/blog/resizer/</a><br>
-<a href="http://edanhewitt.com/blog/sequence/">http://edanhewitt.com/blog/sequence/</a><br>
-<a href="http://edanhewitt.com/blog/jobberbase/">http://edanhewitt.com/blog/jobberbase/</a><br>
-<a href="http://edanhewitt.com/blog/434/">http://edanhewitt.com/blog/434/</a><br>
-<a href="http://edanhewitt.com/blog/pagescroller/">http://edanhewitt.com/blog/pagescroller/</a><br>
-<a href="http://edanhewitt.com/blog/iwantaneffintoolset/">http://edanhewitt.com/blog/iwantaneffintoolset/</a><br>
-<a href="http://edanhewitt.com/blog/fugue-icons/">http://edanhewitt.com/blog/fugue-icons/</a><br>
-<a href="http://edanhewitt.com/blog/collapse/">http://edanhewitt.com/blog/collapse/</a><br>
-<a href="http://edanhewitt.com/blog/hovercard/">http://edanhewitt.com/blog/hovercard/</a><br>
-<a href="http://edanhewitt.com/blog/placeholder/">http://edanhewitt.com/blog/placeholder/</a><br>
-<a href="http://edanhewitt.com/blog/320-and-up-html5-boilerplate-extension/">http://edanhewitt.com/blog/320-and-up-html5-boilerplate-extension/</a><br>
-<a href="http://edanhewitt.com/blog/modern-pictograms-free-open-type-font/">http://edanhewitt.com/blog/modern-pictograms-free-open-type-font/</a><br>
-<a href="http://edanhewitt.com/blog/noty/">http://edanhewitt.com/blog/noty/</a><br>
-<a href="http://edanhewitt.com/blog/infinite-drag/">http://edanhewitt.com/blog/infinite-drag/</a><br>
-<a href="http://edanhewitt.com/blog/lion-bars/">http://edanhewitt.com/blog/lion-bars/</a><br>
-<a href="http://edanhewitt.com/blog/glisse/">http://edanhewitt.com/blog/glisse/</a><br>
-<a href="http://edanhewitt.com/blog/web-symbols-typeface/">http://edanhewitt.com/blog/web-symbols-typeface/</a><br>
-<a href="http://edanhewitt.com/blog/facebook-twitter-style-mentions-input-jquery-plugin/">http://edanhewitt.com/blog/facebook-twitter-style-mentions-input-jquery-plugin/</a><br>
-<a href="http://edanhewitt.com/blog/topup-jquery-ui-lightbox/">http://edanhewitt.com/blog/topup-jquery-ui-lightbox/</a><br>
-<a href="http://edanhewitt.com/blog/jquery-backstretch/">http://edanhewitt.com/blog/jquery-backstretch/</a><br>
-<a href="http://edanhewitt.com/blog/jquery-credit-card-validator/">http://edanhewitt.com/blog/jquery-credit-card-validator/</a><br>
-<a href="http://edanhewitt.com/blog/table-sorter-jquery-plugin/">http://edanhewitt.com/blog/table-sorter-jquery-plugin/</a><br>
-<a href="http://edanhewitt.com/blog/bootbox-botstrap-replacement-for-javascript-alerts/">http://edanhewitt.com/blog/bootbox-botstrap-replacement-for-javascript-alerts/</a><br>
-<a href="http://edanhewitt.com/blog/wookmark/">http://edanhewitt.com/blog/wookmark/</a><br>
-<a href="http://edanhewitt.com/blog/date-picker-extension-for-bootstrap/">http://edanhewitt.com/blog/date-picker-extension-for-bootstrap/</a><br>
-<a href="http://edanhewitt.com/blog/pow-js/">http://edanhewitt.com/blog/pow-js/</a><br>
-<a href="http://edanhewitt.com/blog/html5-book-guide/">http://edanhewitt.com/blog/html5-book-guide/</a><br>
-<a href="http://edanhewitt.com/blog/freebies/">http://edanhewitt.com/blog/freebies/</a><br>
-<a href="http://edanhewitt.com/blog/html5-logo-parodies/">http://edanhewitt.com/blog/html5-logo-parodies/</a><br>
-<a href="http://edanhewitt.com/blog/browser-wars/">http://edanhewitt.com/blog/browser-wars/</a><br>
-<a href="http://edanhewitt.com/blog/site-buttons/">http://edanhewitt.com/blog/site-buttons/</a><br>
-<a href="http://edanhewitt.com/blog/html5-fist/">http://edanhewitt.com/blog/html5-fist/</a><br>
-<a href="http://edanhewitt.com/blog/html6-logo/">http://edanhewitt.com/blog/html6-logo/</a><br>
-<a href="http://edanhewitt.com/blog/some-web-development-freebies-drupal-logo/">http://edanhewitt.com/blog/some-web-development-freebies-drupal-logo/</a><br>
-<a href="http://edanhewitt.com/blog/html5-powered-web-apps/">http://edanhewitt.com/blog/html5-powered-web-apps/</a><br>
-<a href="http://edanhewitt.com/blog/dzslides/">http://edanhewitt.com/blog/dzslides/</a><br>
-<a href="http://edanhewitt.com/blog/dropkick-js/">http://edanhewitt.com/blog/dropkick-js/</a><br>
-<a href="http://edanhewitt.com/blog/cutter-js/">http://edanhewitt.com/blog/cutter-js/</a><br>
-<a href="http://edanhewitt.com/blog/swipejs/">http://edanhewitt.com/blog/swipejs/</a><br>
-<a href="http://edanhewitt.com/blog/chyrp/">http://edanhewitt.com/blog/chyrp/</a><br>
-<a href="http://edanhewitt.com/blog/chico-ui/">http://edanhewitt.com/blog/chico-ui/</a><br>
-<a href="http://edanhewitt.com/blog/css-terminal/">http://edanhewitt.com/blog/css-terminal/</a><br>
-<a href="http://edanhewitt.com/blog/color-thief/">http://edanhewitt.com/blog/color-thief/</a><br>
-<a href="http://edanhewitt.com/blog/chosen/">http://edanhewitt.com/blog/chosen/</a><br>
-<a href="http://edanhewitt.com/blog/beautiful-web-type/">http://edanhewitt.com/blog/beautiful-web-type/</a><br>
-<a href="http://edanhewitt.com/blog/jquery-textarea-eeditor/">http://edanhewitt.com/blog/jquery-textarea-eeditor/</a><br>
-<a href="http://edanhewitt.com/blog/soundjs/">http://edanhewitt.com/blog/soundjs/</a><br>
-<a href="http://edanhewitt.com/blog/tweenjs/">http://edanhewitt.com/blog/tweenjs/</a><br>
-<a href="http://edanhewitt.com/blog/noui-slider/">http://edanhewitt.com/blog/noui-slider/</a><br>
-<a href="http://edanhewitt.com/blog/3d-accordion-effect/">http://edanhewitt.com/blog/3d-accordion-effect/</a><br>
-<a href="http://edanhewitt.com/blog/antiscroll/">http://edanhewitt.com/blog/antiscroll/</a><br>
-<a href="http://edanhewitt.com/blog/addclear/">http://edanhewitt.com/blog/addclear/</a><br>
-<a href="http://edanhewitt.com/blog/blur-js/">http://edanhewitt.com/blog/blur-js/</a><br>
-<a href="http://edanhewitt.com/blog/backstretch/">http://edanhewitt.com/blog/backstretch/</a><br>
-<a href="http://edanhewitt.com/blog/camera-plugin/">http://edanhewitt.com/blog/camera-plugin/</a><br>
-<a href="http://edanhewitt.com/blog/sharenice/">http://edanhewitt.com/blog/sharenice/</a><br>
-<a href="http://edanhewitt.com/blog/jquery-painter/">http://edanhewitt.com/blog/jquery-painter/</a><br>
-<a href="http://edanhewitt.com/blog/html5-slides/">http://edanhewitt.com/blog/html5-slides/</a><br>
-<a href="http://edanhewitt.com/blog/jquery-file-upload/">http://edanhewitt.com/blog/jquery-file-upload/</a><br>
-<a href="http://edanhewitt.com/blog/dot-dot-dot-js/">http://edanhewitt.com/blog/dot-dot-dot-js/</a><br>
-<a href="http://edanhewitt.com/blog/css-fx/">http://edanhewitt.com/blog/css-fx/</a><br>
-<a href="http://edanhewitt.com/blog/mailcheck-js/">http://edanhewitt.com/blog/mailcheck-js/</a><br>
-<a href="http://edanhewitt.com/blog/hammer-js/">http://edanhewitt.com/blog/hammer-js/</a><br>
-<a href="http://edanhewitt.com/blog/skrivr/">http://edanhewitt.com/blog/skrivr/</a><br>
-<a href="http://edanhewitt.com/blog/sigma-js/">http://edanhewitt.com/blog/sigma-js/</a><br>
-<a href="http://edanhewitt.com/blog/formalize/">http://edanhewitt.com/blog/formalize/</a><br>
-<a href="http://edanhewitt.com/blog/scroll-path/">http://edanhewitt.com/blog/scroll-path/</a><br>
-<a href="http://edanhewitt.com/blog/filtrify/">http://edanhewitt.com/blog/filtrify/</a><br>
-<a href="http://edanhewitt.com/blog/jigsoar/">http://edanhewitt.com/blog/jigsoar/</a><br>
-<a href="http://edanhewitt.com/blog/canvas-fireworks/">http://edanhewitt.com/blog/canvas-fireworks/</a><br>
-<a href="http://edanhewitt.com/blog/timeline-js/">http://edanhewitt.com/blog/timeline-js/</a><br>
-<a href="http://edanhewitt.com/blog/tooltips/">http://edanhewitt.com/blog/tooltips/</a><br>
-<a href="http://edanhewitt.com/blog/ingrid-css3-layout-framework/">http://edanhewitt.com/blog/ingrid-css3-layout-framework/</a><br>
-<a href="http://edanhewitt.com/blog/can-js/">http://edanhewitt.com/blog/can-js/</a><br>
-<a href="http://edanhewitt.com/blog/191/">http://edanhewitt.com/blog/191/</a><br>
-<a href="http://edanhewitt.com/blog/rhino-slider/">http://edanhewitt.com/blog/rhino-slider/</a><br>
-<a href="http://edanhewitt.com/blog/kineticjs/">http://edanhewitt.com/blog/kineticjs/</a><br>
-<a href="http://edanhewitt.com/blog/nokia-maps-alien/">http://edanhewitt.com/blog/nokia-maps-alien/</a><br>
-<a href="http://edanhewitt.com/blog/hogan/">http://edanhewitt.com/blog/hogan/</a><br>
-<a href="http://edanhewitt.com/blog/finch-js/">http://edanhewitt.com/blog/finch-js/</a><br>
-<a href="http://edanhewitt.com/blog/bgstretcher/">http://edanhewitt.com/blog/bgstretcher/</a><br>
-<a href="http://edanhewitt.com/blog/451/">http://edanhewitt.com/blog/451/</a><br>
-<a href="http://edanhewitt.com/blog/an-easy-to-use-photo-gallery-photoshow/">http://edanhewitt.com/blog/an-easy-to-use-photo-gallery-photoshow/</a><br>
-<a href="http://edanhewitt.com/blog/resizer/">http://edanhewitt.com/blog/resizer/</a><br>
-<a href="http://edanhewitt.com/blog/sequence/">http://edanhewitt.com/blog/sequence/</a><br>
-<a href="http://edanhewitt.com/blog/jobberbase/">http://edanhewitt.com/blog/jobberbase/</a><br>
-<a href="http://edanhewitt.com/blog/434/">http://edanhewitt.com/blog/434/</a><br>
-<a href="http://edanhewitt.com/blog/pagescroller/">http://edanhewitt.com/blog/pagescroller/</a><br>
-<a href="http://edanhewitt.com/blog/iwantaneffintoolset/">http://edanhewitt.com/blog/iwantaneffintoolset/</a><br>
-<a href="http://edanhewitt.com/blog/fugue-icons/">http://edanhewitt.com/blog/fugue-icons/</a><br>
-<a href="http://edanhewitt.com/blog/collapse/">http://edanhewitt.com/blog/collapse/</a><br>
-<a href="http://edanhewitt.com/blog/hovercard/">http://edanhewitt.com/blog/hovercard/</a><br>
-<a href="http://edanhewitt.com/blog/placeholder/">http://edanhewitt.com/blog/placeholder/</a><br>
-<a href="http://edanhewitt.com/blog/320-and-up-html5-boilerplate-extension/">http://edanhewitt.com/blog/320-and-up-html5-boilerplate-extension/</a><br>
-<a href="http://edanhewitt.com/blog/modern-pictograms-free-open-type-font/">http://edanhewitt.com/blog/modern-pictograms-free-open-type-font/</a><br>
-<a href="http://edanhewitt.com/blog/noty/">http://edanhewitt.com/blog/noty/</a><br>
-<a href="http://edanhewitt.com/blog/infinite-drag/">http://edanhewitt.com/blog/infinite-drag/</a><br>
-<a href="http://edanhewitt.com/blog/lion-bars/">http://edanhewitt.com/blog/lion-bars/</a><br>
-<a href="http://edanhewitt.com/blog/glisse/">http://edanhewitt.com/blog/glisse/</a><br>
-<a href="http://edanhewitt.com/blog/web-symbols-typeface/">http://edanhewitt.com/blog/web-symbols-typeface/</a><br>
-<a href="http://edanhewitt.com/blog/facebook-twitter-style-mentions-input-jquery-plugin/">http://edanhewitt.com/blog/facebook-twitter-style-mentions-input-jquery-plugin/</a><br>
-<a href="http://edanhewitt.com/blog/topup-jquery-ui-lightbox/">http://edanhewitt.com/blog/topup-jquery-ui-lightbox/</a><br>
-<a href="http://edanhewitt.com/blog/jquery-backstretch/">http://edanhewitt.com/blog/jquery-backstretch/</a><br>
-<a href="http://edanhewitt.com/blog/jquery-credit-card-validator/">http://edanhewitt.com/blog/jquery-credit-card-validator/</a><br>
-<a href="http://edanhewitt.com/blog/table-sorter-jquery-plugin/">http://edanhewitt.com/blog/table-sorter-jquery-plugin/</a><br>
-<a href="http://edanhewitt.com/blog/bootbox-botstrap-replacement-for-javascript-alerts/">http://edanhewitt.com/blog/bootbox-botstrap-replacement-for-javascript-alerts/</a><br>
-<a href="http://edanhewitt.com/blog/wookmark/">http://edanhewitt.com/blog/wookmark/</a><br>
-<a href="http://edanhewitt.com/blog/date-picker-extension-for-bootstrap/">http://edanhewitt.com/blog/date-picker-extension-for-bootstrap/</a><br>
-<a href="http://edanhewitt.com/blog/pow-js/">http://edanhewitt.com/blog/pow-js/</a><br>
-<a href="http://edanhewitt.com/blog/html5-book-guide/">http://edanhewitt.com/blog/html5-book-guide/</a><br>
-<a href="http://edanhewitt.com/blog/freebies/">http://edanhewitt.com/blog/freebies/</a><br>
-<a href="http://edanhewitt.com/blog/html5-logo-parodies/">http://edanhewitt.com/blog/html5-logo-parodies/</a><br>
-<a href="http://edanhewitt.com/blog/browser-wars/">http://edanhewitt.com/blog/browser-wars/</a><br>
-<a href="http://edanhewitt.com/blog/site-buttons/">http://edanhewitt.com/blog/site-buttons/</a><br>
-<a href="http://edanhewitt.com/blog/html5-fist/">http://edanhewitt.com/blog/html5-fist/</a><br>
-<a href="http://edanhewitt.com/blog/html6-logo/">http://edanhewitt.com/blog/html6-logo/</a><br>
-<a href="http://edanhewitt.com/blog/some-web-development-freebies-drupal-logo/">http://edanhewitt.com/blog/some-web-development-freebies-drupal-logo/</a><br>
-<a href="http://edanhewitt.com/blog/html5-powered-web-apps/">http://edanhewitt.com/blog/html5-powered-web-apps/</a><br>
-<a href="http://edanhewitt.com/blog/dzslides/">http://edanhewitt.com/blog/dzslides/</a><br>
-<a href="http://edanhewitt.com/blog/dropkick-js/">http://edanhewitt.com/blog/dropkick-js/</a><br>
-<a href="http://edanhewitt.com/blog/cutter-js/">http://edanhewitt.com/blog/cutter-js/</a><br>
-<a href="http://edanhewitt.com/blog/swipejs/">http://edanhewitt.com/blog/swipejs/</a><br>
-<a href="http://edanhewitt.com/blog/chyrp/">http://edanhewitt.com/blog/chyrp/</a><br>
-<a href="http://edanhewitt.com/blog/chico-ui/">http://edanhewitt.com/blog/chico-ui/</a><br>
-<a href="http://edanhewitt.com/blog/css-terminal/">http://edanhewitt.com/blog/css-terminal/</a><br>
-<a href="http://edanhewitt.com/blog/color-thief/">http://edanhewitt.com/blog/color-thief/</a><br>
-<a href="http://edanhewitt.com/blog/chosen/">http://edanhewitt.com/blog/chosen/</a><br>
-<a href="http://edanhewitt.com/blog/beautiful-web-type/">http://edanhewitt.com/blog/beautiful-web-type/</a><br>
-<a href="http://edanhewitt.com/blog/jquery-textarea-eeditor/">http://edanhewitt.com/blog/jquery-textarea-eeditor/</a><br>
-<a href="http://edanhewitt.com/blog/soundjs/">http://edanhewitt.com/blog/soundjs/</a><br>
-<a href="http://edanhewitt.com/blog/tweenjs/">http://edanhewitt.com/blog/tweenjs/</a><br>
-<a href="http://edanhewitt.com/blog/noui-slider/">http://edanhewitt.com/blog/noui-slider/</a><br>
-<a href="http://edanhewitt.com/blog/3d-accordion-effect/">http://edanhewitt.com/blog/3d-accordion-effect/</a><br>
-<a href="http://edanhewitt.com/blog/antiscroll/">http://edanhewitt.com/blog/antiscroll/</a><br>
-<a href="http://edanhewitt.com/blog/addclear/">http://edanhewitt.com/blog/addclear/</a><br>
-<a href="http://edanhewitt.com/blog/blur-js/">http://edanhewitt.com/blog/blur-js/</a><br>
-<a href="http://edanhewitt.com/blog/backstretch/">http://edanhewitt.com/blog/backstretch/</a><br>
-<a href="http://edanhewitt.com/blog/camera-plugin/">http://edanhewitt.com/blog/camera-plugin/</a><br>
-<a href="http://edanhewitt.com/blog/sharenice/">http://edanhewitt.com/blog/sharenice/</a><br>
-<a href="http://edanhewitt.com/blog/jquery-painter/">http://edanhewitt.com/blog/jquery-painter/</a><br>
-<a href="http://edanhewitt.com/blog/html5-slides/">http://edanhewitt.com/blog/html5-slides/</a><br>
-<a href="http://edanhewitt.com/blog/jquery-file-upload/">http://edanhewitt.com/blog/jquery-file-upload/</a><br>
-<a href="http://edanhewitt.com/blog/dot-dot-dot-js/">http://edanhewitt.com/blog/dot-dot-dot-js/</a><br>
-<a href="http://edanhewitt.com/blog/css-fx/">http://edanhewitt.com/blog/css-fx/</a><br>
-<a href="http://edanhewitt.com/blog/mailcheck-js/">http://edanhewitt.com/blog/mailcheck-js/</a><br>
-<a href="http://edanhewitt.com/blog/hammer-js/">http://edanhewitt.com/blog/hammer-js/</a><br>
-<a href="http://edanhewitt.com/blog/skrivr/">http://edanhewitt.com/blog/skrivr/</a><br>
-<a href="http://edanhewitt.com/blog/sigma-js/">http://edanhewitt.com/blog/sigma-js/</a><br>
-<a href="http://edanhewitt.com/blog/formalize/">http://edanhewitt.com/blog/formalize/</a><br>
-<a href="http://edanhewitt.com/blog/scroll-path/">http://edanhewitt.com/blog/scroll-path/</a><br>
-<a href="http://edanhewitt.com/blog/filtrify/">http://edanhewitt.com/blog/filtrify/</a><br>
-<a href="http://edanhewitt.com/blog/jigsoar/">http://edanhewitt.com/blog/jigsoar/</a><br>
-<a href="http://edanhewitt.com/blog/canvas-fireworks/">http://edanhewitt.com/blog/canvas-fireworks/</a><br>
-<a href="http://edanhewitt.com/blog/timeline-js/">http://edanhewitt.com/blog/timeline-js/</a><br>
-<a href="http://edanhewitt.com/blog/tooltips/">http://edanhewitt.com/blog/tooltips/</a><br>
-<a href="http://edanhewitt.com/blog/ingrid-css3-layout-framework/">http://edanhewitt.com/blog/ingrid-css3-layout-framework/</a><br>
-<a href="http://edanhewitt.com/blog/can-js/">http://edanhewitt.com/blog/can-js/</a><br>
-<a href="http://edanhewitt.com/blog/191/">http://edanhewitt.com/blog/191/</a><br>
-<a href="http://edanhewitt.com/blog/rhino-slider/">http://edanhewitt.com/blog/rhino-slider/</a><br>
-<a href="http://edanhewitt.com/blog/kineticjs/">http://edanhewitt.com/blog/kineticjs/</a><br>
-<a href="http://edanhewitt.com/blog/nokia-maps-alien/">http://edanhewitt.com/blog/nokia-maps-alien/</a><br>
-<a href="http://r3versin.com/blog/updates/">http://r3versin.com/blog/updates/</a><br>
-<a href="http://r3versin.com/blog/edan/">http://r3versin.com/blog/edan/</a><br>
-<a href="http://r3versin.com/blog/the-github-pirates/">http://r3versin.com/blog/the-github-pirates/</a><br>
-<a href="http://r3versin.com/blog/i-want-an-effin-toolset/">http://r3versin.com/blog/i-want-an-effin-toolset/</a><br>
-<a href="http://r3versin.com/blog/h5bp-redux-blogpost/">http://r3versin.com/blog/h5bp-redux-blogpost/</a><br>
-<a href="http://r3versin.com/blog/jplay/">http://r3versin.com/blog/jplay/</a><br>
-<a href="http://r3versin.com/blog/infinite-pages-infinite-scroll-php-script/">http://r3versin.com/blog/infinite-pages-infinite-scroll-php-script/</a><br>
-<a href="http://r3versin.com/blog/on-sopa-and-internet-freedom/">http://r3versin.com/blog/on-sopa-and-internet-freedom/</a><br>
-<a href="http://r3versin.com/blog/dhtmlcentral-type-things-from-the-dhtml-era-of-2001-2007/">http://r3versin.com/blog/dhtmlcentral-type-things-from-the-dhtml-era-of-2001-2007/</a><br>
-<a href="http://r3versin.com/blog/modern-web-development/">http://r3versin.com/blog/modern-web-development/</a><br>
-<a href="http://r3versin.com/blog/higgo85/">http://r3versin.com/blog/higgo85/</a><br>
-<a href="http://r3versin.com/blog/on-being-meta/">http://r3versin.com/blog/on-being-meta/</a><br>
-<a href="http://r3versin.com/blog/facebook-unicode/">http://r3versin.com/blog/facebook-unicode/</a><br>
-<a href="http://r3versin.com/blog/codepo/">http://r3versin.com/blog/codepo/</a><br>
-<a href="http://r3versin.com/blog/handpicked-jquery-plugins/">http://r3versin.com/blog/handpicked-jquery-plugins/</a><br>
-<a href="http://r3versin.com/blog/ryder-ripps-on-linkedin/">http://r3versin.com/blog/ryder-ripps-on-linkedin/</a><br>
-<a href="http://r3versin.com/blog/backing-up-git-github/">http://r3versin.com/blog/backing-up-git-github/</a><br>
-<a href="http://r3versin.com/blog/cloudapp-roulette/">http://r3versin.com/blog/cloudapp-roulette/</a><br>
-<a href="http://r3versin.com/blog/asciimation-demo/">http://r3versin.com/blog/asciimation-demo/</a><br>
-<a href="http://r3versin.com/blog/scene/">http://r3versin.com/blog/scene/</a><br>
-<a href="http://r3versin.com/blog/lame-hack-attempt/">http://r3versin.com/blog/lame-hack-attempt/</a><br>
-<a href="http://r3versin.com/blog/unicode-art/">http://r3versin.com/blog/unicode-art/</a><br>
-<a href="http://r3versin.com/blog/codepirate/">http://r3versin.com/blog/codepirate/</a><br>
-<a href="http://r3versin.com/blog/assemble/">http://r3versin.com/blog/assemble/</a><br>
-<a href="http://r3versin.com/blog/webkit-scrollbars-css3/">http://r3versin.com/blog/webkit-scrollbars-css3/</a><br>
-<a href="http://r3versin.com/blog/vimeo-video-roundup/">http://r3versin.com/blog/vimeo-video-roundup/</a><br>
-<a href="http://r3versin.com/blog/david-higgins/">http://r3versin.com/blog/david-higgins/</a><br>
-<a href="http://r3versin.com/blog/browser-logos/">http://r3versin.com/blog/browser-logos/</a><br>
-<a href="http://r3versin.com/blog/i-want-an-effin-filedump/">http://r3versin.com/blog/i-want-an-effin-filedump/</a><br>
-<a href="http://r3versin.com/blog/html5-logo-parodies/">http://r3versin.com/blog/html5-logo-parodies/</a><br>
-<a href="http://r3versin.com/blog/freebies/">http://r3versin.com/blog/freebies/</a><br>
-<a href="http://r3versin.com/blog/pintools/">http://r3versin.com/blog/pintools/</a><br>
-<a href="http://r3versin.com/blog/like-everything-on-facebook/">http://r3versin.com/blog/like-everything-on-facebook/</a><br>
-</p>
-
-</span>
-
-</details>
-
-</section>
-
-<div class="ico smiley">-</div>
-
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-		<script src="lib/jquery.details.js"></script>
-		<script src="lib/jquery.addsocial.js"></script>
-		<script src="lib/jquery.simple-tooltip.js"></script>
-
-		<script>
-			$(function () {
-
-			    $('a[target~="_blank"]').simpleTooltip({
-			        title: 'Opens in new window!'
-			    });
-
-			    var nativeDetailsSupport = $.fn.details.support;
-			    if (!nativeDetailsSupport) {
-			        $('html').addClass('no-details');
-			    } else {
-			        $('span').css('display', 'block')
-			    }
-			    
-			    $('details').details();
-
-			    twttr.anywhere(function (T) {
-			        T("#intro").hovercards();
-			        T("#humans-txt").hovercards();
-			        T("#car").hovercards();
-			    });
-
-			    $(".social").addSocial();
-
-			});
-
-		</script>
-
-		<script src="https://apis.google.com/js/plusone.js"></script>
-		<script src="http://eire-media.com/toolset/?js"></script>
-		
-	<span class="all-up-in-ya-google">I Want an Effin.</span>
-		<span class="all-up-in-ya-google">iwantaneffin</span>
-			<span class="all-up-in-ya-google">effin toolset</span>
-			 <span class="all-up-in-ya-google">effin</span>
-				<span class="all-up-in-ya-google">iwantaneffin toolset</span>
-					<span class="all-up-in-ya-google">david higgins</span>
-						<span class="all-up-in-ya-google">mothereff.in</span>
-							<span class="all-up-in-ya-google">iwantaneff.in</span>
-								<span class="all-up-in-ya-google">iwantaneff</span>
-									<span class="all-up-in-ya-google">effin dev tools</span>
-										<span class="all-up-in-ya-google">iwant an eff.in</span>
-										
-										<a href="https://github.com/higgo/iwantaneff.in"><img style="position: fixed; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/30f550e0d38ceb6ef5b81500c64d970b7fb0f028/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub"></a>
-
-                                                                  </body></html>
+               </p>
+               <a href="/facebook.ping" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>cursor.css</b></summary>
+            <span style="display: none;">
+               <p>
+                  Did you know CSS has <i>a vast number</i> of options regarding cursors you can use on your HTML5 elements? As ever, you can always hotlink to our <a href="http://iwantaneff.in/cursor.css">cursor.css</a> file which is hosted by Cloudflare's CDN (Content Delivery Network). You might want to visit <a href="http://trac.webkit.org/export/37902/trunk/WebCore/manual-tests/cursor.html" target="_blank">this page</a> for live demos of all the cursors you can use. Example:<br /><br />
+               <a href="javascript:" style="cursor: crosshair;">crosshair</a>
+               <br />
+               <a href="javascript:" style="cursor: move;">move</a>
+               </p>
+               <a href="/cursor.css" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <h2>Misc tools</h2>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>game-of-cloudapp-roulette/</b></summary>
+            <span style="display: none;">
+               <p>
+                  What this program does is generate a random 4 letter alphanumberic file ID, and appends it to a cloudapp URL. It then opens ten browser tabs / windows so you can see what Cloudapp item exists there.
+               </p>
+               <a href="html/game-of-cloudapp-roulette/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>repeat/</b></summary>
+            <span style="display: none;">
+               <p>
+                  I always hated typing out a FOR loop really quickly when I wanted to repeat text multiple times. Why would someone want to repeat text multiple times? See this: <a href="http://isharefil.es/DV7b" target="_blank">http://isharefil.es/DV7b</a>
+               </p>
+               <a href="html/repeat/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>glitcher</b></summary>
+            <span style="display: none;">
+               <p>
+                  You have text. You need to fuck it up, <a href="http://www.flickriver.com/search/glitch+art/" target="_blank">glitch art</a> style. This does that. Based off <a href="http://glitchtweet.com/" target="_blank">the tool here.</a>
+               </p>
+               <a href="html/glitcher/index.html" class="light">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>shuffler</b></summary>
+            <span style="display: none;">
+               <p>
+                  You have text you don't want to repeat multiple times over, so you shuffle it to make it look unique. Try it, it makes the internet a less samey-place.
+               </p>
+               <a href="html/shuffler/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>link.list.opener</b></summary>
+            <span style="display: none;">
+               <p>
+                  You have a bunch of cyberlocker links. You need to open them all at once. This does that.
+               </p>
+               <a href="html/link.list.opener/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>linklist/</b></summary>
+            <span style="display: none;">
+               <p>
+                  Basically a sitemap for all my projects, and blogposts. Makes it easier for the search engines to crawl my posts. This will get updated every 6 months. This is everything I have so far. Enjoy! This is really for the bots.
+               </p>
+               <p>
+                  <a href="http://flavors.me/eire/">http://flavors.me/eire/</a><br />
+                  <a href="http://u-n-i.co/">http://u-n-i.co/</a><br />
+                  <a href="http://davidhiggins.me/">http://davidhiggins.me/</a><br />
+                  <a href="http://github.com/higgo/">http://github.com/higgo/</a><br />
+                  <a href="http://pinboard.in/u:em">http://pinboard.in/u:em</a><br />
+                  <a href="http://iwantaneff.in/repo/">http://iwantaneff.in/repo/</a><br />
+                  <a href="http://iwantaneff.in/repo/browser/">http://iwantaneff.in/repo/browser/</a><br />
+                  <a href="http://codepirat.es/">http://codepirat.es/</a><br />
+                  <a href="http://smileyfor.eu/">http://smileyfor.eu/</a><br />
+                  <a href="http://higg.in/">http://higg.in/</a><br />
+                  <a href="http://davidhiggins.me/+">http://davidhiggins.me/+</a><br />
+                  <a href="http://r3versin.com/">http://r3versin.com/</a><br />
+                  <a href="http://r3versin.com/uplaods/css/">http://r3versin.com/uplaods/css/</a><br />
+                  <a href="http://r3versin.com/uploads/js/">http://r3versin.com/uploads/js/</a><br />
+                  <a href="http://higg.in/+">http://higg.in/+</a><br />
+                  <a href="http://eire-media.com/reversin.blog/">http://eire-media.com/reversin.blog/</a><br />
+                  <a href="http://eire-media.com/roulette/">http://eire-media.com/roulette/</a><br />
+                  <a href="http://eire-media.com/tumblr/">http://eire-media.com/tumblr/</a><br />
+                  <a href="http://eire-media.com/landing/">http://eire-media.com/landing/</a><br />
+                  <a href="http://eire-media.com/linkdump/">http://eire-media.com/linkdump/</a><br />
+                  <a href="http://eire-media.com/toolset/">http://eire-media.com/toolset/</a><br />
+                  <a href="http://eire-media.com/higg/">http://eire-media.com/higg/</a><br />
+                  <a href="http://eire-media.com/repos/">http://eire-media.com/repos/</a><br />
+                  <a href="http://eire-media.com/smiley/">http://eire-media.com/smiley/</a><br />
+                  <a href="http://eire-media.com/pirates/">http://eire-media.com/pirates/</a><br />
+                  <a href="http://edanhewitt.com/stats/">http://edanhewitt.com/stats/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/asciimation/">http://iwantaneff.in/toolset/html/asciimation/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/asciimation.cube/">http://iwantaneff.in/toolset/html/asciimation.cube/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/beautifier/">http://iwantaneff.in/toolset/html/beautifier/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/bookmarklet/">http://iwantaneff.in/toolset/html/bookmarklet/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/css.sanitizer/">http://iwantaneff.in/toolset/html/css.sanitizer/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/datauri/">http://iwantaneff.in/toolset/html/datauri/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/entifier/">http://iwantaneff.in/toolset/html/entifier/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/favicon/">http://iwantaneff.in/toolset/html/favicon/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/flower/">http://iwantaneff.in/toolset/html/flower/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/game-of-cloudapp-roulette/">http://iwantaneff.in/toolset/html/game-of-cloudapp-roulette/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/game.of.pacman/">http://iwantaneff.in/toolset/html/game.of.pacman/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/glitcher/">http://iwantaneff.in/toolset/html/glitcher/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/jjencoder/">http://iwantaneff.in/toolset/html/jjencoder/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/link.list.opener/">http://iwantaneff.in/toolset/html/link.list.opener/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/notice/">http://iwantaneff.in/toolset/html/notice/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/packer/">http://iwantaneff.in/toolset/html/packer/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/repeat/">http://iwantaneff.in/toolset/html/repeat/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/shuffler/">http://iwantaneff.in/toolset/html/shuffler/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/slug/">http://iwantaneff.in/toolset/html/slug/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/smiley/">http://iwantaneff.in/toolset/html/smiley/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/star">http://iwantaneff.in/toolset/html/star</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/textarea/">http://iwantaneff.in/toolset/html/textarea/</a><br />
+                  <a href="http://iwantaneff.in/toolset/html/unicode.table/">http://iwantaneff.in/toolset/html/unicode.table/</a><br />
+                  <a href="https://github.com/higgo/handpicked.jquery.plugins.repo">https://github.com/higgo/handpicked.jquery.plugins.repo</a><br />
+                  <a href="https://github.com/higgo/the.github.pirates">https://github.com/higgo/the.github.pirates</a><br />
+                  <a href="https://github.com/higgo/higgo.github.com">https://github.com/higgo/higgo.github.com</a><br />
+                  <a href="https://github.com/higgo/posterous">https://github.com/higgo/posterous</a><br />
+                  <a href="https://github.com/higgo/unicode.tools">https://github.com/higgo/unicode.tools</a><br />
+                  <a href="https://github.com/higgo/public.gists">https://github.com/higgo/public.gists</a><br />
+                  <a href="https://github.com/higgo/iwantaneff.in">https://github.com/higgo/iwantaneff.in</a><br />
+                  <a href="https://github.com/higgo/h5bp-redux">https://github.com/higgo/h5bp-redux</a><br />
+                  <a href="https://github.com/higgo/utopia.js.plus.docs">https://github.com/higgo/utopia.js.plus.docs</a><br />
+                  <a href="https://github.com/higgo/upload.resource">https://github.com/higgo/upload.resource</a><br />
+                  <a href="https://github.com/higgo/php.url.shortener.with.bitly">https://github.com/higgo/php.url.shortener.with.bitly</a><br />
+                  <a href="https://github.com/higgo/asciimation">https://github.com/higgo/asciimation</a><br />
+                  <a href="http://code.google.com/p/retrojs-oldskool-js-dhtml/">http://code.google.com/p/retrojs-oldskool-js-dhtml/</a><br />
+                  <a href="http://code.google.com/p/webfxwidgets/">http://code.google.com/p/webfxwidgets/</a><br />
+                  <a href="http://code.google.com/p/asmscroller/">http://code.google.com/p/asmscroller/</a><br />
+                  <a href="http://code.google.com/p/js-bezier-functions/">http://code.google.com/p/js-bezier-functions/</a><br />
+                  <a href="http://code.google.com/p/1kdomlib/">http://code.google.com/p/1kdomlib/</a><br />
+                  <a href="http://code.google.com/p/3dhtml/">http://code.google.com/p/3dhtml/</a><br />
+                  <a href="http://code.google.com/p/innerdiv/">http://code.google.com/p/innerdiv/</a><br />
+                  <a href="http://code.google.com/p/assembler-mirror/">http://code.google.com/p/assembler-mirror/</a><br />
+                  <a href="http://code.google.com/p/domapi/">http://code.google.com/p/domapi/</a><br />
+                  <a href="http://code.google.com/p/beehive2/">http://code.google.com/p/beehive2/</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22678240125/jquerying-like-a-noob">http://dev.edanhewitt.com/post/22678240125/jquerying-like-a-noob</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22678219352/medium-equals-message-4-best-javascript-or-jquery">http://dev.edanhewitt.com/post/22678219352/medium-equals-message-4-best-javascript-or-jquery</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22678206483/matts-tumblog-continuing-website-development">http://dev.edanhewitt.com/post/22678206483/matts-tumblog-continuing-website-development</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22678141276/move-that-parenthesis-james-padolsey">http://dev.edanhewitt.com/post/22678141276/move-that-parenthesis-james-padolsey</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22678138811/youtube-browser-pre-alpha-demo-is-live">http://dev.edanhewitt.com/post/22678138811/youtube-browser-pre-alpha-demo-is-live</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22678135322/sexylightbox-www-coders-me">http://dev.edanhewitt.com/post/22678135322/sexylightbox-www-coders-me</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22677976107/javascript-styleguides-and-beautifiers">http://dev.edanhewitt.com/post/22677976107/javascript-styleguides-and-beautifiers</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22677966784/fixie-js-automatic-filler-content">http://dev.edanhewitt.com/post/22677966784/fixie-js-automatic-filler-content</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22677963926/torus-easeljs">http://dev.edanhewitt.com/post/22677963926/torus-easeljs</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22677960774/demoing-and-displaying-javascript-at-the-same-time">http://dev.edanhewitt.com/post/22677960774/demoing-and-displaying-javascript-at-the-same-time</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22340212920/edan-hewitt-hogan-js-may-1st-2012">http://dev.edanhewitt.com/post/22340212920/edan-hewitt-hogan-js-may-1st-2012</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22339477061/jquery-edan-hewitt">http://dev.edanhewitt.com/post/22339477061/jquery-edan-hewitt</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22330246607/libsass">http://dev.edanhewitt.com/post/22330246607/libsass</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22223997576/heatmap-js-html5-canvas-heatmap-library">http://dev.edanhewitt.com/post/22223997576/heatmap-js-html5-canvas-heatmap-library</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22223968533/iwantaneffin-toolset-iwantaneff-in-toolset-effin-tools">http://dev.edanhewitt.com/post/22223968533/iwantaneffin-toolset-iwantaneff-in-toolset-effin-tools</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22219014450/jquery-selector-extensions">http://dev.edanhewitt.com/post/22219014450/jquery-selector-extensions</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22219011656/jqapi-alternative-jquery-documentation">http://dev.edanhewitt.com/post/22219011656/jqapi-alternative-jquery-documentation</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22217295614/roy-jin">http://dev.edanhewitt.com/post/22217295614/roy-jin</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21745954745/how-this-works">http://dev.edanhewitt.com/post/21745954745/how-this-works</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21639421020/democratizing-apis-your-data-is-owned-by-you">http://dev.edanhewitt.com/post/21639421020/democratizing-apis-your-data-is-owned-by-you</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21509369245/feedz">http://dev.edanhewitt.com/post/21509369245/feedz</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21407597492/html5-boilerplate-on-steroids">http://dev.edanhewitt.com/post/21407597492/html5-boilerplate-on-steroids</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21300273410">http://dev.edanhewitt.com/post/21300273410</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22678355075/mathjax">http://dev.edanhewitt.com/post/22678355075/mathjax</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22678352005/renegade-rascals-an-introduction-to-impact-js">http://dev.edanhewitt.com/post/22678352005/renegade-rascals-an-introduction-to-impact-js</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22678306984/lukejuntunen-in-other-news-i-finished-mostly">http://dev.edanhewitt.com/post/22678306984/lukejuntunen-in-other-news-i-finished-mostly</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22678271577/best-open-source-resources-for-web-developers">http://dev.edanhewitt.com/post/22678271577/best-open-source-resources-for-web-developers</a><br />
+                  <a href="http://dev.edanhewitt.com/post/22678258409/ftwi-js">http://dev.edanhewitt.com/post/22678258409/ftwi-js</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21300263192/javascript-closure-compiler">http://dev.edanhewitt.com/post/21300263192/javascript-closure-compiler</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21300253441/spritebox-create-css-from-sprite-images">http://dev.edanhewitt.com/post/21300253441/spritebox-create-css-from-sprite-images</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21300202935/online-json-viewer">http://dev.edanhewitt.com/post/21300202935/online-json-viewer</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21300152627/d3-js-data-driven-documents">http://dev.edanhewitt.com/post/21300152627/d3-js-data-driven-documents</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21300123538/javascript-essential-patterns-speaker-deck">http://dev.edanhewitt.com/post/21300123538/javascript-essential-patterns-speaker-deck</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21300103175/moviepilot-labs-get-on-board-for-apps-berlin-js">http://dev.edanhewitt.com/post/21300103175/moviepilot-labs-get-on-board-for-apps-berlin-js</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21299989558/jquery-file-upload-widget">http://dev.edanhewitt.com/post/21299989558/jquery-file-upload-widget</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21299978062/amber-smalltalk-on-the-web">http://dev.edanhewitt.com/post/21299978062/amber-smalltalk-on-the-web</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21299975385/how-to-spot-outdated-javascript">http://dev.edanhewitt.com/post/21299975385/how-to-spot-outdated-javascript</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21299971652/stoljiz-right-now-thats-a-lie-because-there">http://dev.edanhewitt.com/post/21299971652/stoljiz-right-now-thats-a-lie-because-there</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21297046912/i-want-an-effin-toolset-screencast-edan-hewitt">http://dev.edanhewitt.com/post/21297046912/i-want-an-effin-toolset-screencast-edan-hewitt</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21294989194/the-handpicked-jquery-plugins-repository-david">http://dev.edanhewitt.com/post/21294989194/the-handpicked-jquery-plugins-repository-david</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21294924120/this-post-is-dedicated-to-my-mentor-and-fellow">http://dev.edanhewitt.com/post/21294924120/this-post-is-dedicated-to-my-mentor-and-fellow</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21294782844/on-being-meta-david-higgins-blog">http://dev.edanhewitt.com/post/21294782844/on-being-meta-david-higgins-blog</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21294714892/tweets-david-higgins-blog">http://dev.edanhewitt.com/post/21294714892/tweets-david-higgins-blog</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21294571437/oldskool-retro-dhtml-libraries-widgets-from">http://dev.edanhewitt.com/post/21294571437/oldskool-retro-dhtml-libraries-widgets-from</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21294526563/html-document-template-david-higgins-blog">http://dev.edanhewitt.com/post/21294526563/html-document-template-david-higgins-blog</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21294396828/we-need-a-better-way-to-share-files-on-the">http://dev.edanhewitt.com/post/21294396828/we-need-a-better-way-to-share-files-on-the</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21294354290/on-sopa-and-internet-freedom-a-letter-to">http://dev.edanhewitt.com/post/21294354290/on-sopa-and-internet-freedom-a-letter-to</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21285703766/http-bradshawenterprises-com-tests-formdemo-php">http://dev.edanhewitt.com/post/21285703766/http-bradshawenterprises-com-tests-formdemo-php</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21285688437/html5-demos-and-examples">http://dev.edanhewitt.com/post/21285688437/html5-demos-and-examples</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21285680298/feature-test-what-does-your-browser-support">http://dev.edanhewitt.com/post/21285680298/feature-test-what-does-your-browser-support</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21285672873/html5-cross-browser-polyfills-modernizr-modernizr">http://dev.edanhewitt.com/post/21285672873/html5-cross-browser-polyfills-modernizr-modernizr</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21285649091/smashing-html5">http://dev.edanhewitt.com/post/21285649091/smashing-html5</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21285497750/silk">http://dev.edanhewitt.com/post/21285497750/silk</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21285496164/flarevideo">http://dev.edanhewitt.com/post/21285496164/flarevideo</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21285386220/internet-explorer-is-evil">http://dev.edanhewitt.com/post/21285386220/internet-explorer-is-evil</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21285345593/explorer-destroyer-switch-to-firefox-make-money-from">http://dev.edanhewitt.com/post/21285345593/explorer-destroyer-switch-to-firefox-make-money-from</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21285311950/ie7pro-the-ultimate-add-on-for-internet-explorer">http://dev.edanhewitt.com/post/21285311950/ie7pro-the-ultimate-add-on-for-internet-explorer</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21285270297/ie6ify-bookmarklet">http://dev.edanhewitt.com/post/21285270297/ie6ify-bookmarklet</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21285240530/crash-internet-explorer-just-by-visiting-this-page">http://dev.edanhewitt.com/post/21285240530/crash-internet-explorer-just-by-visiting-this-page</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21281516335/share-bar-social-sharing">http://dev.edanhewitt.com/post/21281516335/share-bar-social-sharing</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21085117247/chunky-css3-share-buttons-with-counters">http://dev.edanhewitt.com/post/21085117247/chunky-css3-share-buttons-with-counters</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21085094496/the-next-ui-frame-js-is-a-function-sequencer-and">http://dev.edanhewitt.com/post/21085094496/the-next-ui-frame-js-is-a-function-sequencer-and</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21085083129/lsdesignfirm-jquery-plugins-to-create-dynamic">http://dev.edanhewitt.com/post/21085083129/lsdesignfirm-jquery-plugins-to-create-dynamic</a><br />
+                  <a href="http://dev.edanhewitt.com/post/21085073377/frame-js-blog-frame-js-is-a-function-sequencer-and">http://dev.edanhewitt.com/post/21085073377/frame-js-blog-frame-js-is-a-function-sequencer-and</a><br />
+                  <a href="http://edanhewitt.com/blog/hogan/">http://edanhewitt.com/blog/hogan/</a><br />
+                  <a href="http://edanhewitt.com/blog/finch-js/">http://edanhewitt.com/blog/finch-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/bgstretcher/">http://edanhewitt.com/blog/bgstretcher/</a><br />
+                  <a href="http://edanhewitt.com/blog/451/">http://edanhewitt.com/blog/451/</a><br />
+                  <a href="http://edanhewitt.com/blog/an-easy-to-use-photo-gallery-photoshow/">http://edanhewitt.com/blog/an-easy-to-use-photo-gallery-photoshow/</a><br />
+                  <a href="http://edanhewitt.com/blog/resizer/">http://edanhewitt.com/blog/resizer/</a><br />
+                  <a href="http://edanhewitt.com/blog/sequence/">http://edanhewitt.com/blog/sequence/</a><br />
+                  <a href="http://edanhewitt.com/blog/jobberbase/">http://edanhewitt.com/blog/jobberbase/</a><br />
+                  <a href="http://edanhewitt.com/blog/434/">http://edanhewitt.com/blog/434/</a><br />
+                  <a href="http://edanhewitt.com/blog/pagescroller/">http://edanhewitt.com/blog/pagescroller/</a><br />
+                  <a href="http://edanhewitt.com/blog/iwantaneffintoolset/">http://edanhewitt.com/blog/iwantaneffintoolset/</a><br />
+                  <a href="http://edanhewitt.com/blog/fugue-icons/">http://edanhewitt.com/blog/fugue-icons/</a><br />
+                  <a href="http://edanhewitt.com/blog/collapse/">http://edanhewitt.com/blog/collapse/</a><br />
+                  <a href="http://edanhewitt.com/blog/hovercard/">http://edanhewitt.com/blog/hovercard/</a><br />
+                  <a href="http://edanhewitt.com/blog/placeholder/">http://edanhewitt.com/blog/placeholder/</a><br />
+                  <a href="http://edanhewitt.com/blog/320-and-up-html5-boilerplate-extension/">http://edanhewitt.com/blog/320-and-up-html5-boilerplate-extension/</a><br />
+                  <a href="http://edanhewitt.com/blog/modern-pictograms-free-open-type-font/">http://edanhewitt.com/blog/modern-pictograms-free-open-type-font/</a><br />
+                  <a href="http://edanhewitt.com/blog/noty/">http://edanhewitt.com/blog/noty/</a><br />
+                  <a href="http://edanhewitt.com/blog/infinite-drag/">http://edanhewitt.com/blog/infinite-drag/</a><br />
+                  <a href="http://edanhewitt.com/blog/lion-bars/">http://edanhewitt.com/blog/lion-bars/</a><br />
+                  <a href="http://edanhewitt.com/blog/glisse/">http://edanhewitt.com/blog/glisse/</a><br />
+                  <a href="http://edanhewitt.com/blog/web-symbols-typeface/">http://edanhewitt.com/blog/web-symbols-typeface/</a><br />
+                  <a href="http://edanhewitt.com/blog/facebook-twitter-style-mentions-input-jquery-plugin/">http://edanhewitt.com/blog/facebook-twitter-style-mentions-input-jquery-plugin/</a><br />
+                  <a href="http://edanhewitt.com/blog/topup-jquery-ui-lightbox/">http://edanhewitt.com/blog/topup-jquery-ui-lightbox/</a><br />
+                  <a href="http://edanhewitt.com/blog/jquery-backstretch/">http://edanhewitt.com/blog/jquery-backstretch/</a><br />
+                  <a href="http://edanhewitt.com/blog/jquery-credit-card-validator/">http://edanhewitt.com/blog/jquery-credit-card-validator/</a><br />
+                  <a href="http://edanhewitt.com/blog/table-sorter-jquery-plugin/">http://edanhewitt.com/blog/table-sorter-jquery-plugin/</a><br />
+                  <a href="http://edanhewitt.com/blog/bootbox-botstrap-replacement-for-javascript-alerts/">http://edanhewitt.com/blog/bootbox-botstrap-replacement-for-javascript-alerts/</a><br />
+                  <a href="http://edanhewitt.com/blog/wookmark/">http://edanhewitt.com/blog/wookmark/</a><br />
+                  <a href="http://edanhewitt.com/blog/date-picker-extension-for-bootstrap/">http://edanhewitt.com/blog/date-picker-extension-for-bootstrap/</a><br />
+                  <a href="http://edanhewitt.com/blog/pow-js/">http://edanhewitt.com/blog/pow-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/html5-book-guide/">http://edanhewitt.com/blog/html5-book-guide/</a><br />
+                  <a href="http://edanhewitt.com/blog/freebies/">http://edanhewitt.com/blog/freebies/</a><br />
+                  <a href="http://edanhewitt.com/blog/html5-logo-parodies/">http://edanhewitt.com/blog/html5-logo-parodies/</a><br />
+                  <a href="http://edanhewitt.com/blog/browser-wars/">http://edanhewitt.com/blog/browser-wars/</a><br />
+                  <a href="http://edanhewitt.com/blog/site-buttons/">http://edanhewitt.com/blog/site-buttons/</a><br />
+                  <a href="http://edanhewitt.com/blog/html5-fist/">http://edanhewitt.com/blog/html5-fist/</a><br />
+                  <a href="http://edanhewitt.com/blog/html6-logo/">http://edanhewitt.com/blog/html6-logo/</a><br />
+                  <a href="http://edanhewitt.com/blog/some-web-development-freebies-drupal-logo/">http://edanhewitt.com/blog/some-web-development-freebies-drupal-logo/</a><br />
+                  <a href="http://edanhewitt.com/blog/html5-powered-web-apps/">http://edanhewitt.com/blog/html5-powered-web-apps/</a><br />
+                  <a href="http://edanhewitt.com/blog/dzslides/">http://edanhewitt.com/blog/dzslides/</a><br />
+                  <a href="http://edanhewitt.com/blog/dropkick-js/">http://edanhewitt.com/blog/dropkick-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/cutter-js/">http://edanhewitt.com/blog/cutter-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/swipejs/">http://edanhewitt.com/blog/swipejs/</a><br />
+                  <a href="http://edanhewitt.com/blog/chyrp/">http://edanhewitt.com/blog/chyrp/</a><br />
+                  <a href="http://edanhewitt.com/blog/chico-ui/">http://edanhewitt.com/blog/chico-ui/</a><br />
+                  <a href="http://edanhewitt.com/blog/css-terminal/">http://edanhewitt.com/blog/css-terminal/</a><br />
+                  <a href="http://edanhewitt.com/blog/color-thief/">http://edanhewitt.com/blog/color-thief/</a><br />
+                  <a href="http://edanhewitt.com/blog/chosen/">http://edanhewitt.com/blog/chosen/</a><br />
+                  <a href="http://edanhewitt.com/blog/beautiful-web-type/">http://edanhewitt.com/blog/beautiful-web-type/</a><br />
+                  <a href="http://edanhewitt.com/blog/jquery-textarea-eeditor/">http://edanhewitt.com/blog/jquery-textarea-eeditor/</a><br />
+                  <a href="http://edanhewitt.com/blog/soundjs/">http://edanhewitt.com/blog/soundjs/</a><br />
+                  <a href="http://edanhewitt.com/blog/tweenjs/">http://edanhewitt.com/blog/tweenjs/</a><br />
+                  <a href="http://edanhewitt.com/blog/noui-slider/">http://edanhewitt.com/blog/noui-slider/</a><br />
+                  <a href="http://edanhewitt.com/blog/3d-accordion-effect/">http://edanhewitt.com/blog/3d-accordion-effect/</a><br />
+                  <a href="http://edanhewitt.com/blog/antiscroll/">http://edanhewitt.com/blog/antiscroll/</a><br />
+                  <a href="http://edanhewitt.com/blog/addclear/">http://edanhewitt.com/blog/addclear/</a><br />
+                  <a href="http://edanhewitt.com/blog/blur-js/">http://edanhewitt.com/blog/blur-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/backstretch/">http://edanhewitt.com/blog/backstretch/</a><br />
+                  <a href="http://edanhewitt.com/blog/camera-plugin/">http://edanhewitt.com/blog/camera-plugin/</a><br />
+                  <a href="http://edanhewitt.com/blog/sharenice/">http://edanhewitt.com/blog/sharenice/</a><br />
+                  <a href="http://edanhewitt.com/blog/jquery-painter/">http://edanhewitt.com/blog/jquery-painter/</a><br />
+                  <a href="http://edanhewitt.com/blog/html5-slides/">http://edanhewitt.com/blog/html5-slides/</a><br />
+                  <a href="http://edanhewitt.com/blog/jquery-file-upload/">http://edanhewitt.com/blog/jquery-file-upload/</a><br />
+                  <a href="http://edanhewitt.com/blog/dot-dot-dot-js/">http://edanhewitt.com/blog/dot-dot-dot-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/css-fx/">http://edanhewitt.com/blog/css-fx/</a><br />
+                  <a href="http://edanhewitt.com/blog/mailcheck-js/">http://edanhewitt.com/blog/mailcheck-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/hammer-js/">http://edanhewitt.com/blog/hammer-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/skrivr/">http://edanhewitt.com/blog/skrivr/</a><br />
+                  <a href="http://edanhewitt.com/blog/sigma-js/">http://edanhewitt.com/blog/sigma-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/formalize/">http://edanhewitt.com/blog/formalize/</a><br />
+                  <a href="http://edanhewitt.com/blog/scroll-path/">http://edanhewitt.com/blog/scroll-path/</a><br />
+                  <a href="http://edanhewitt.com/blog/filtrify/">http://edanhewitt.com/blog/filtrify/</a><br />
+                  <a href="http://edanhewitt.com/blog/jigsoar/">http://edanhewitt.com/blog/jigsoar/</a><br />
+                  <a href="http://edanhewitt.com/blog/canvas-fireworks/">http://edanhewitt.com/blog/canvas-fireworks/</a><br />
+                  <a href="http://edanhewitt.com/blog/timeline-js/">http://edanhewitt.com/blog/timeline-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/tooltips/">http://edanhewitt.com/blog/tooltips/</a><br />
+                  <a href="http://edanhewitt.com/blog/ingrid-css3-layout-framework/">http://edanhewitt.com/blog/ingrid-css3-layout-framework/</a><br />
+                  <a href="http://edanhewitt.com/blog/can-js/">http://edanhewitt.com/blog/can-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/191/">http://edanhewitt.com/blog/191/</a><br />
+                  <a href="http://edanhewitt.com/blog/rhino-slider/">http://edanhewitt.com/blog/rhino-slider/</a><br />
+                  <a href="http://edanhewitt.com/blog/kineticjs/">http://edanhewitt.com/blog/kineticjs/</a><br />
+                  <a href="http://edanhewitt.com/blog/nokia-maps-alien/">http://edanhewitt.com/blog/nokia-maps-alien/</a><br />
+                  <a href="http://edanhewitt.com/blog/hogan/">http://edanhewitt.com/blog/hogan/</a><br />
+                  <a href="http://edanhewitt.com/blog/finch-js/">http://edanhewitt.com/blog/finch-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/bgstretcher/">http://edanhewitt.com/blog/bgstretcher/</a><br />
+                  <a href="http://edanhewitt.com/blog/451/">http://edanhewitt.com/blog/451/</a><br />
+                  <a href="http://edanhewitt.com/blog/an-easy-to-use-photo-gallery-photoshow/">http://edanhewitt.com/blog/an-easy-to-use-photo-gallery-photoshow/</a><br />
+                  <a href="http://edanhewitt.com/blog/resizer/">http://edanhewitt.com/blog/resizer/</a><br />
+                  <a href="http://edanhewitt.com/blog/sequence/">http://edanhewitt.com/blog/sequence/</a><br />
+                  <a href="http://edanhewitt.com/blog/jobberbase/">http://edanhewitt.com/blog/jobberbase/</a><br />
+                  <a href="http://edanhewitt.com/blog/434/">http://edanhewitt.com/blog/434/</a><br />
+                  <a href="http://edanhewitt.com/blog/pagescroller/">http://edanhewitt.com/blog/pagescroller/</a><br />
+                  <a href="http://edanhewitt.com/blog/iwantaneffintoolset/">http://edanhewitt.com/blog/iwantaneffintoolset/</a><br />
+                  <a href="http://edanhewitt.com/blog/fugue-icons/">http://edanhewitt.com/blog/fugue-icons/</a><br />
+                  <a href="http://edanhewitt.com/blog/collapse/">http://edanhewitt.com/blog/collapse/</a><br />
+                  <a href="http://edanhewitt.com/blog/hovercard/">http://edanhewitt.com/blog/hovercard/</a><br />
+                  <a href="http://edanhewitt.com/blog/placeholder/">http://edanhewitt.com/blog/placeholder/</a><br />
+                  <a href="http://edanhewitt.com/blog/320-and-up-html5-boilerplate-extension/">http://edanhewitt.com/blog/320-and-up-html5-boilerplate-extension/</a><br />
+                  <a href="http://edanhewitt.com/blog/modern-pictograms-free-open-type-font/">http://edanhewitt.com/blog/modern-pictograms-free-open-type-font/</a><br />
+                  <a href="http://edanhewitt.com/blog/noty/">http://edanhewitt.com/blog/noty/</a><br />
+                  <a href="http://edanhewitt.com/blog/infinite-drag/">http://edanhewitt.com/blog/infinite-drag/</a><br />
+                  <a href="http://edanhewitt.com/blog/lion-bars/">http://edanhewitt.com/blog/lion-bars/</a><br />
+                  <a href="http://edanhewitt.com/blog/glisse/">http://edanhewitt.com/blog/glisse/</a><br />
+                  <a href="http://edanhewitt.com/blog/web-symbols-typeface/">http://edanhewitt.com/blog/web-symbols-typeface/</a><br />
+                  <a href="http://edanhewitt.com/blog/facebook-twitter-style-mentions-input-jquery-plugin/">http://edanhewitt.com/blog/facebook-twitter-style-mentions-input-jquery-plugin/</a><br />
+                  <a href="http://edanhewitt.com/blog/topup-jquery-ui-lightbox/">http://edanhewitt.com/blog/topup-jquery-ui-lightbox/</a><br />
+                  <a href="http://edanhewitt.com/blog/jquery-backstretch/">http://edanhewitt.com/blog/jquery-backstretch/</a><br />
+                  <a href="http://edanhewitt.com/blog/jquery-credit-card-validator/">http://edanhewitt.com/blog/jquery-credit-card-validator/</a><br />
+                  <a href="http://edanhewitt.com/blog/table-sorter-jquery-plugin/">http://edanhewitt.com/blog/table-sorter-jquery-plugin/</a><br />
+                  <a href="http://edanhewitt.com/blog/bootbox-botstrap-replacement-for-javascript-alerts/">http://edanhewitt.com/blog/bootbox-botstrap-replacement-for-javascript-alerts/</a><br />
+                  <a href="http://edanhewitt.com/blog/wookmark/">http://edanhewitt.com/blog/wookmark/</a><br />
+                  <a href="http://edanhewitt.com/blog/date-picker-extension-for-bootstrap/">http://edanhewitt.com/blog/date-picker-extension-for-bootstrap/</a><br />
+                  <a href="http://edanhewitt.com/blog/pow-js/">http://edanhewitt.com/blog/pow-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/html5-book-guide/">http://edanhewitt.com/blog/html5-book-guide/</a><br />
+                  <a href="http://edanhewitt.com/blog/freebies/">http://edanhewitt.com/blog/freebies/</a><br />
+                  <a href="http://edanhewitt.com/blog/html5-logo-parodies/">http://edanhewitt.com/blog/html5-logo-parodies/</a><br />
+                  <a href="http://edanhewitt.com/blog/browser-wars/">http://edanhewitt.com/blog/browser-wars/</a><br />
+                  <a href="http://edanhewitt.com/blog/site-buttons/">http://edanhewitt.com/blog/site-buttons/</a><br />
+                  <a href="http://edanhewitt.com/blog/html5-fist/">http://edanhewitt.com/blog/html5-fist/</a><br />
+                  <a href="http://edanhewitt.com/blog/html6-logo/">http://edanhewitt.com/blog/html6-logo/</a><br />
+                  <a href="http://edanhewitt.com/blog/some-web-development-freebies-drupal-logo/">http://edanhewitt.com/blog/some-web-development-freebies-drupal-logo/</a><br />
+                  <a href="http://edanhewitt.com/blog/html5-powered-web-apps/">http://edanhewitt.com/blog/html5-powered-web-apps/</a><br />
+                  <a href="http://edanhewitt.com/blog/dzslides/">http://edanhewitt.com/blog/dzslides/</a><br />
+                  <a href="http://edanhewitt.com/blog/dropkick-js/">http://edanhewitt.com/blog/dropkick-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/cutter-js/">http://edanhewitt.com/blog/cutter-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/swipejs/">http://edanhewitt.com/blog/swipejs/</a><br />
+                  <a href="http://edanhewitt.com/blog/chyrp/">http://edanhewitt.com/blog/chyrp/</a><br />
+                  <a href="http://edanhewitt.com/blog/chico-ui/">http://edanhewitt.com/blog/chico-ui/</a><br />
+                  <a href="http://edanhewitt.com/blog/css-terminal/">http://edanhewitt.com/blog/css-terminal/</a><br />
+                  <a href="http://edanhewitt.com/blog/color-thief/">http://edanhewitt.com/blog/color-thief/</a><br />
+                  <a href="http://edanhewitt.com/blog/chosen/">http://edanhewitt.com/blog/chosen/</a><br />
+                  <a href="http://edanhewitt.com/blog/beautiful-web-type/">http://edanhewitt.com/blog/beautiful-web-type/</a><br />
+                  <a href="http://edanhewitt.com/blog/jquery-textarea-eeditor/">http://edanhewitt.com/blog/jquery-textarea-eeditor/</a><br />
+                  <a href="http://edanhewitt.com/blog/soundjs/">http://edanhewitt.com/blog/soundjs/</a><br />
+                  <a href="http://edanhewitt.com/blog/tweenjs/">http://edanhewitt.com/blog/tweenjs/</a><br />
+                  <a href="http://edanhewitt.com/blog/noui-slider/">http://edanhewitt.com/blog/noui-slider/</a><br />
+                  <a href="http://edanhewitt.com/blog/3d-accordion-effect/">http://edanhewitt.com/blog/3d-accordion-effect/</a><br />
+                  <a href="http://edanhewitt.com/blog/antiscroll/">http://edanhewitt.com/blog/antiscroll/</a><br />
+                  <a href="http://edanhewitt.com/blog/addclear/">http://edanhewitt.com/blog/addclear/</a><br />
+                  <a href="http://edanhewitt.com/blog/blur-js/">http://edanhewitt.com/blog/blur-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/backstretch/">http://edanhewitt.com/blog/backstretch/</a><br />
+                  <a href="http://edanhewitt.com/blog/camera-plugin/">http://edanhewitt.com/blog/camera-plugin/</a><br />
+                  <a href="http://edanhewitt.com/blog/sharenice/">http://edanhewitt.com/blog/sharenice/</a><br />
+                  <a href="http://edanhewitt.com/blog/jquery-painter/">http://edanhewitt.com/blog/jquery-painter/</a><br />
+                  <a href="http://edanhewitt.com/blog/html5-slides/">http://edanhewitt.com/blog/html5-slides/</a><br />
+                  <a href="http://edanhewitt.com/blog/jquery-file-upload/">http://edanhewitt.com/blog/jquery-file-upload/</a><br />
+                  <a href="http://edanhewitt.com/blog/dot-dot-dot-js/">http://edanhewitt.com/blog/dot-dot-dot-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/css-fx/">http://edanhewitt.com/blog/css-fx/</a><br />
+                  <a href="http://edanhewitt.com/blog/mailcheck-js/">http://edanhewitt.com/blog/mailcheck-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/hammer-js/">http://edanhewitt.com/blog/hammer-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/skrivr/">http://edanhewitt.com/blog/skrivr/</a><br />
+                  <a href="http://edanhewitt.com/blog/sigma-js/">http://edanhewitt.com/blog/sigma-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/formalize/">http://edanhewitt.com/blog/formalize/</a><br />
+                  <a href="http://edanhewitt.com/blog/scroll-path/">http://edanhewitt.com/blog/scroll-path/</a><br />
+                  <a href="http://edanhewitt.com/blog/filtrify/">http://edanhewitt.com/blog/filtrify/</a><br />
+                  <a href="http://edanhewitt.com/blog/jigsoar/">http://edanhewitt.com/blog/jigsoar/</a><br />
+                  <a href="http://edanhewitt.com/blog/canvas-fireworks/">http://edanhewitt.com/blog/canvas-fireworks/</a><br />
+                  <a href="http://edanhewitt.com/blog/timeline-js/">http://edanhewitt.com/blog/timeline-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/tooltips/">http://edanhewitt.com/blog/tooltips/</a><br />
+                  <a href="http://edanhewitt.com/blog/ingrid-css3-layout-framework/">http://edanhewitt.com/blog/ingrid-css3-layout-framework/</a><br />
+                  <a href="http://edanhewitt.com/blog/can-js/">http://edanhewitt.com/blog/can-js/</a><br />
+                  <a href="http://edanhewitt.com/blog/191/">http://edanhewitt.com/blog/191/</a><br />
+                  <a href="http://edanhewitt.com/blog/rhino-slider/">http://edanhewitt.com/blog/rhino-slider/</a><br />
+                  <a href="http://edanhewitt.com/blog/kineticjs/">http://edanhewitt.com/blog/kineticjs/</a><br />
+                  <a href="http://edanhewitt.com/blog/nokia-maps-alien/">http://edanhewitt.com/blog/nokia-maps-alien/</a><br />
+                  <a href="http://r3versin.com/blog/updates/">http://r3versin.com/blog/updates/</a><br />
+                  <a href="http://r3versin.com/blog/edan/">http://r3versin.com/blog/edan/</a><br />
+                  <a href="http://r3versin.com/blog/the-github-pirates/">http://r3versin.com/blog/the-github-pirates/</a><br />
+                  <a href="http://r3versin.com/blog/i-want-an-effin-toolset/">http://r3versin.com/blog/i-want-an-effin-toolset/</a><br />
+                  <a href="http://r3versin.com/blog/h5bp-redux-blogpost/">http://r3versin.com/blog/h5bp-redux-blogpost/</a><br />
+                  <a href="http://r3versin.com/blog/jplay/">http://r3versin.com/blog/jplay/</a><br />
+                  <a href="http://r3versin.com/blog/infinite-pages-infinite-scroll-php-script/">http://r3versin.com/blog/infinite-pages-infinite-scroll-php-script/</a><br />
+                  <a href="http://r3versin.com/blog/on-sopa-and-internet-freedom/">http://r3versin.com/blog/on-sopa-and-internet-freedom/</a><br />
+                  <a href="http://r3versin.com/blog/dhtmlcentral-type-things-from-the-dhtml-era-of-2001-2007/">http://r3versin.com/blog/dhtmlcentral-type-things-from-the-dhtml-era-of-2001-2007/</a><br />
+                  <a href="http://r3versin.com/blog/modern-web-development/">http://r3versin.com/blog/modern-web-development/</a><br />
+                  <a href="http://r3versin.com/blog/higgo85/">http://r3versin.com/blog/higgo85/</a><br />
+                  <a href="http://r3versin.com/blog/on-being-meta/">http://r3versin.com/blog/on-being-meta/</a><br />
+                  <a href="http://r3versin.com/blog/facebook-unicode/">http://r3versin.com/blog/facebook-unicode/</a><br />
+                  <a href="http://r3versin.com/blog/codepo/">http://r3versin.com/blog/codepo/</a><br />
+                  <a href="http://r3versin.com/blog/handpicked-jquery-plugins/">http://r3versin.com/blog/handpicked-jquery-plugins/</a><br />
+                  <a href="http://r3versin.com/blog/ryder-ripps-on-linkedin/">http://r3versin.com/blog/ryder-ripps-on-linkedin/</a><br />
+                  <a href="http://r3versin.com/blog/backing-up-git-github/">http://r3versin.com/blog/backing-up-git-github/</a><br />
+                  <a href="http://r3versin.com/blog/cloudapp-roulette/">http://r3versin.com/blog/cloudapp-roulette/</a><br />
+                  <a href="http://r3versin.com/blog/asciimation-demo/">http://r3versin.com/blog/asciimation-demo/</a><br />
+                  <a href="http://r3versin.com/blog/scene/">http://r3versin.com/blog/scene/</a><br />
+                  <a href="http://r3versin.com/blog/lame-hack-attempt/">http://r3versin.com/blog/lame-hack-attempt/</a><br />
+                  <a href="http://r3versin.com/blog/unicode-art/">http://r3versin.com/blog/unicode-art/</a><br />
+                  <a href="http://r3versin.com/blog/codepirate/">http://r3versin.com/blog/codepirate/</a><br />
+                  <a href="http://r3versin.com/blog/assemble/">http://r3versin.com/blog/assemble/</a><br />
+                  <a href="http://r3versin.com/blog/webkit-scrollbars-css3/">http://r3versin.com/blog/webkit-scrollbars-css3/</a><br />
+                  <a href="http://r3versin.com/blog/vimeo-video-roundup/">http://r3versin.com/blog/vimeo-video-roundup/</a><br />
+                  <a href="http://r3versin.com/blog/david-higgins/">http://r3versin.com/blog/david-higgins/</a><br />
+                  <a href="http://r3versin.com/blog/browser-logos/">http://r3versin.com/blog/browser-logos/</a><br />
+                  <a href="http://r3versin.com/blog/i-want-an-effin-filedump/">http://r3versin.com/blog/i-want-an-effin-filedump/</a><br />
+                  <a href="http://r3versin.com/blog/html5-logo-parodies/">http://r3versin.com/blog/html5-logo-parodies/</a><br />
+                  <a href="http://r3versin.com/blog/freebies/">http://r3versin.com/blog/freebies/</a><br />
+                  <a href="http://r3versin.com/blog/pintools/">http://r3versin.com/blog/pintools/</a><br />
+                  <a href="http://r3versin.com/blog/like-everything-on-facebook/">http://r3versin.com/blog/like-everything-on-facebook/</a><br />
+               </p>
+            </span>
+         </details>
+         <h2>Demos + Fun</h2>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>asciimation/</b></summary>
+            <span style="display: none;">
+               <p id="humans-txt">
+                  A script that animates a very long ASCII rendering of a star. If you want a plain text-file, you can check my humans.txt here: <a href="http://davidhiggins.me/humans.txt" target="_blank">davidhiggins.me/humans.txt</a>. The TXT file was <a href="http://twitter.com/divya/status/139044029403889664" target="_blank">tweeted about</a> by @Divya, and went slightly viral as a result :) It now has a home on Chrome experiments!
+               </p>
+               <a href="http://www.chromeexperiments.com/detail/asciimations/" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>unicode-smart-car</b></summary>
+            <span style="display: none;">
+               <p>
+                  A unicode smart car animation, taken from <b id="car">@smartArg</b> on Twitter.
+               </p>
+               <a href="http://davidhiggins.me/car/" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>demo</b></summary>
+            <span style="display: none;">
+               <p>
+                  Two demos I made showcasing just how far you can push the HTML5 &lt;PROGRESS&gt; element .
+               </p>
+               <a href="http://davidhiggins.me/progress/a/index.html" class="light" target="_blank">Demo A</a>
+               <a href="http://davidhiggins.me/progress/b/index.html" class="light" target="_blank">Demo B</a>
+            </span>
+         </details>
+         <details>
+            <summary style="-moz-user-select: none;">iwantaneff.in/<b>game.of.pacman/</b></summary>
+            <span style="display: none;">
+               <p>
+                  Sometimes you're just bored! This is a homage to Google's Pacman <a href="http://www.google.com/pacman/">available here</a> I never liked the way Google encased the game within the 'frame' of their site, so here's a site-rip!
+               </p>
+               <a href="html/game.of.pacman/index.html" class="light" target="_blank">Yes, Please</a>
+            </span>
+         </details>
+      </section>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+      <script src="http://cdn.jsdelivr.net/sharrre/1.3.2/jquery.sharrre-1.3.2.min.js"></script>
+      <script src="lib/jquery.details.js"></script>
+      <script src="lib/jquery.simple-tooltip.js"></script>
+      <script>
+         $(function () {
+         
+         $('a[target~="_blank"]').simpleTooltip({
+         title: 'Opens in new window!'
+         });
+         
+         var nativeDetailsSupport = $.fn.details.support;
+         if (!nativeDetailsSupport) {
+         $('html').addClass('no-details');
+         } else {
+         $('span').css('display', 'block')
+         }
+         
+         $('details').details();
+         
+         twttr.anywhere(function (T) {
+         T("#intro").hovercards();
+         T("#humans-txt").hovercards();
+         T("#car").hovercards();
+         });
+                  
+         $('#shareme').sharrre({
+         enableTracking: false,
+         share: {
+         googlePlus: true,
+         facebook: true,
+         twitter: true,
+         stumbleupon: true,
+         delicious: true,
+         },
+         enableTracking: false,
+         buttons: {
+         googlePlus: {
+         size: 'tall'
+         },
+         facebook: {
+         layout: 'box_count'
+         },
+         twitter: {
+         count: 'vertical'
+         },
+         stumbleupon: {
+         layout: '5'
+         },
+         delicious: {
+         size: 'tall'
+         }
+         },
+         hover: function (api, options) {
+         $(api.element).find('.buttons').show();
+         },
+         hide: function (api, options) {
+         $(api.element).find('.buttons').hide();
+         }
+         });
+         
+         });
+         
+      </script>
+      <script src="https://apis.google.com/js/plusone.js"></script>
+      <script src="http://stats.higg.in/?js"></script>
+      <span class="all-up-in-ya-google">I Want an Effin.</span>
+      <span class="all-up-in-ya-google">iwantaneffin</span>
+      <span class="all-up-in-ya-google">effin toolset</span>
+      <span class="all-up-in-ya-google">effin</span>
+      <span class="all-up-in-ya-google">iwantaneffin toolset</span>
+      <span class="all-up-in-ya-google">david higgins</span>
+      <span class="all-up-in-ya-google">mothereff.in</span>
+      <span class="all-up-in-ya-google">iwantaneff.in</span>
+      <span class="all-up-in-ya-google">iwantaneff</span>
+      <span class="all-up-in-ya-google">effin dev tools</span>
+      <span class="all-up-in-ya-google">iwant an eff.in</span>
+      <a id="github" href="https://github.com/higgo/iwantaneff.in">
+      <span>Fork me on GitHub!</span>
+      <span>Get an Effin' T-Shirt</span>
+      </a>
+      <script src="http://stats.higg.in/?js"></script>
+   </body>
+   </html6>

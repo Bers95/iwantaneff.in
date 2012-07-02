@@ -1,3 +1,11 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www.)?iwantaneff.in(/)?.*$ [NC]
+RewriteRule .(js)$ http://isharefil.es/Hjgf/hotlinked.js [L,NC]
+
+Redirect 301 /hotpink/ http://iwantaneff.in/toolset/html/hotpink/
+Redirect 301 /hotpink http://iwantaneff.in/toolset/html/hotpink/
+
 Redirect 301 /asciimation/ http://iwantaneff.in/toolset/html/asciimation/
 Redirect 301 /asciimation http://iwantaneff.in/toolset/html/asciimation/
 

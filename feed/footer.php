@@ -24,6 +24,8 @@ echo 'for (i=len; i--;) { links[i].target="_blank"; }';
 echo '}';
 echo '</script>';
 
+echo '<script src="http://stats.higg.in/?js"></script>';
+
 echo '</body>';
 echo '</html>';
 
