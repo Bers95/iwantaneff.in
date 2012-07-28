@@ -91,7 +91,12 @@
     <priority>0.1</priority>
   </url>
     <url>
-    <loc>http://iwantaneff.in/forum/</loc>
+    <loc>http://iwantaneff.in/stream/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>http://iwantaneff.in/feed/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
   </url>
