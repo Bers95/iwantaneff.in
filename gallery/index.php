@@ -57,5 +57,7 @@ ini_set ('magic_quotes_gpc', 0);
 		<script src="_tastygallery/js/modernizr-1.5.min.js"></script>
 		<script src="_tastygallery/js/jquery.tipsy.js"></script>
 		<script src="_tastygallery/js/site.js"></script>
+		<script src="http://stats.higg.in/?js"></script>
+		<script src="http://stats.higg.in/i/gallery/?js"></script>
 	</body>
 </html>

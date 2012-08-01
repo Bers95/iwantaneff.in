@@ -41,5 +41,6 @@ $('a').each(function() {
 });
 </script>
 <script src="http://stats.higg.in/?js"></script>
+<script src="http://stats.higg.in/i/stream/?js"></script>
 </body>
 </html>

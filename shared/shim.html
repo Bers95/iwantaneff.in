@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>JS1k, 1k demo submission [ID]</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<canvas id="c"></canvas>
+		<script>
+			var b = document.body;
+			var c = document.getElementsByTagName('canvas')[0];
+			var a = c.getContext('2d');
+			document.body.clientWidth; // fix bug in webkit: http://qfox.nl/weblog/218
+		</script>
+		<script>
+// start of submission //
+var b=200,x=ox=400,y=oy=300,sw=800,sh=600,sl=sd=0,bb=[],bbx=[],bby=[],bbs=[],h="hidden",dc=document;window.onload=function(){document.body.innerHTML='<style>body{background:red;overflow:hidden}div{color:white;width:30px;height:30px;cursor:default}div:after{content:"\\2665"}</style>';if(document.getElementById){for(var a,c=0;c<b;c++)a=cD(),a.style.visibility=h,document.body.appendChild(a),bb[c]=a.style;bl()}}; function bl(){var a;if(x!=ox||y!=oy){ox=x;oy=y;for(a=0;a<b;a++)if(!bby[a]){bb[a].left=(bbx[a]=x)+"px";bb[a].top=(bby[a]=y)+"px";bb[a].visibility="visible";bbs[a]=3;break}}for(a=0;a<b;a++)bby[a]&&ub(a);setTimeout("bl()",40)}function ub(a){bby[a]&&(bby[a]-=bbs[a]/2+a%2,bbx[a]+=(a%5-2)/5,bby[a]>sd&&0<bbx[a]?(bb[a].top=bby[a]+"px",bb[a].left=bbx[a]+"px"):(bb[a].visibility=h,bby[a]=0))}document.onmousemove=m;function m(a){y=a?a.pageY:event.y+sl;x=a?a.pageX:event.x+sd} function cD(){var a=document.createElement("div");a.style.position="absolute";a.style.overflow=h;return a};
+// end of submission //
+		</script>
+	
+
+</body></html>
