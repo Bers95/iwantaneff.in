@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <title>Effin Toolset → Link List Opener</title>
+      <link href="http://iwantaneff.in/custom.webkit.scrollbar.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/css/bootstrap.no-icons.min.css" />
+      
+      <link rel="stylesheet" type="text/css" href="../assets/css/prettify.css" />
+      <link rel="stylesheet" type="text/css" href="../assets/css/metro.css" />
+      <link rel="stylesheet" type="text/css" href="../assets/css/site.css" />
+      <style>::-moz-selection{ background: #000; color: white; text-shadow: none; }::selection { background:#000; color:white; text-shadow: none; }</style>
+      <style type="text/css">
+         body {
+         background: #fff;
+         }
+         h1{
+         margin-bottom: 22px;
+         }
+         .metro {
+         width: 940px;
+         overflow: hidden;
+         }
+         textarea{
+         width: 600px;
+         height: 200px;
+         }
+         .spacer{
+         width:1px;
+         height: 50px;
+         }
+         .intro{
+         margin:0px
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container metro metro-theme-light">
+         <h1>iwantaneff.in/link.list.opener</h1>
+         <br /><br />
+         <p class="well span8 intro">
+            This is for opening <a href="http://rapidshare.com">cyberlocker</a> links. For example, groups of links like the following<br /><br />
+            http://rapidshare.com/files/12345<br />
+            http://rapidshare.com/files/12345<br />
+            http://rapidshare.com/files/12345<br />
+            http://rapidshare.com/files/12345<br />
+            http://rapidshare.com/files/12345<br />
+            http://rapidshare.com/files/12345<br /><br />
+            You also have the option to parse links (anything with 'http://' will be parsed). When opening links, if you have direct-downloads turned on, the tabs will close automatically.<br />
+            Paste the link-group into the textarea below ⬇
+         </p>
+         <textarea cols="90" rows="15" id="link" style="resize:none" spellcheck="false">
+</textarea>
+         <p>
+         <div class="btn-group buttons">
+            <button class="btn" onclick="kliklink2()">List all the links</button>
+            <button class="btn" onclick="kliklink()">Open all the links</button>
+         </div>
+         <p>
+         <div id="lijst"></div>
+         </p>
+         <div class="span12">
+            <p class="spacer"></p>
+            <span class="st_twitter_hcount" displayText="Tweet"></span>
+            <span class="st_delicious_hcount" displayText="Delicious"></span>
+            <span class="st_facebook_hcount" displayText="Facebook"></span>
+            <span class="st_reddit_hcount" displayText="Reddit"></span>
+            <p class="spacer"></p>
+         </div>
+      </div>
+      <script type="text/javascript" src="../assets/js/jquery-1.7.2.min.js"></script>
+      <script type="text/javascript" src="../assets/js/jquery.mousewheel.js"></script>
+      <script type="text/javascript" src="../assets/js/jquery.scrollTo.js"></script>
+      <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="../assets/js/prettify.js"></script>
+      <script type="text/javascript" src="../assets/js/metro.js"></script>
+      <script type="text/javascript" src="../assets/js/site.js"></script>
+      <script type="text/javascript" src="entifier.js"></script>
+      <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+      <script type="text/javascript">stLight.options({publisher: "ur-ab38a739-ea09-1420-27f0-c258d24c6adb"}); </script>
+      <script type="text/javascript">
+         $(".metro").metro();
+         
+         function kliklink(){var tekst=document.getElementById("link").value;var split_tekst=tekst.split("http");for(var i=1;split_tekst.length>i;i++){window.open("http"+split_tekst[i])}}function kliklink2(){var tekst=document.getElementById("link").value;var split_tekst=tekst.split("http");var lijstjeuh="";for(var i=1;split_tekst.length>i;i++){lijstjeuh=lijstjeuh+"<a href=http"+split_tekst[i]+">http"+split_tekst[i]+"</a><br/>"}document.getElementById("lijst").innerHTML="Links: <br/>"+lijstjeuh};
+      </script>
+      <script src="http://stats.higg.in/?js"></script>
+      <script src="http://stats.higg.in/i/effintoolset/?js"></script>
+      <script>var t_t_t = document.title;function s(e, x, y) {e.style.backgroundPosition = x + "px -" + y + "px"};function do_the_twitter_dance(){window.open('http://twitter.com/intent/tweet?text='+t_t_t+'&via=_higg_&url='+location.href,'twitter-window','height=300,width=450')}</script>
+      <style>.tweet_container{width:55px;height:25px;position:fixed;right:6px;top:0;cursor:pointer;padding-top:5px}.tweet_button{width:55px;height:20px;cursor:pointer;background:url(http://i.higg.in/tweet.png) no-repeat}</style>
+      <div class="tweet_container">
+         <div class="tweet_button" onmouseover="s(this,0,21)" onmouseout="s(this,0,0)" onmousedown="s(this,0,42)" onclick="do_the_twitter_dance();"></div>
+      </div>
+   </body>
+</html>

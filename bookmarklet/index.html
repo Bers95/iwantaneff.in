@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <title>Effin Toolset → Entifier</title>
+      <link href="http://iwantaneff.in/custom.webkit.scrollbar.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/css/bootstrap.no-icons.min.css" />
+      
+      <link rel="stylesheet" type="text/css" href="../assets/css/prettify.css" />
+      <link rel="stylesheet" type="text/css" href="../assets/css/metro.css" />
+      <link rel="stylesheet" type="text/css" href="../assets/css/site.css" />
+      <style>::-moz-selection{ background: #000; color: white; text-shadow: none; }::selection { background:#000; color:white; text-shadow: none; }</style>
+      <style type="text/css">
+         body {
+         background: #fff;
+         }
+         .metro {
+         width: 940px;
+         overflow: hidden;
+         }
+         textarea{
+         width: 600px;
+         height: 200px;
+         }
+         .spacer{
+         width:1px;
+         height: 50px;
+         }
+         .conversion{
+         left:-20px;
+         position:relative
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container metro metro-theme-light" />
+      <header>
+         <h2>iwantaneff.in/bookmarklet</h2>
+      </header>
+      <p class="well">You have JavaScript. You need a <a href="http://en.wikipedia.org/wiki/Bookmarklet">bookmarklet</a>. This does that.</p>
+      <p class="well">
+         » Removes newlines, tabs, and optional spaces<br /><br />
+         » URL-encodes special ASCII characters: [space], %, &quot;, &lt;, &gt;, #, @, &amp;, ?<br /><br />
+         » Places code in a wrapper function (if not done already)<br /><br />
+         » Does not hex-encode non-ASCII characters (you should probably use <a href="http://www.w3schools.com/jsref/jsref_fromcharcode.asp">String.fromCharCode</a> for that)<br />
+      </p>
+      <div class="span12">
+         <form name="BMMaker" onsubmit="MakeBM(); return false;" action="#" class="conversion">
+            <textarea name="Input"></textarea>
+            <p>
+               <input type="submit" class="metro-button" value="Convert to bookmarklet" />
+            </p>
+            <textarea spellcheck="false" name="Output" wrap="hard" name="Output"></textarea>
+         </form>
+      </div>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/jquery.1.7.2.min.js"><\/script>')</script>
+      <script type="text/javascript" src="../assets/js/jquery.mousewheel.js"></script>
+      <script type="text/javascript" src="../assets/js/jquery.scrollTo.js"></script>
+      <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="../assets/js/prettify.js"></script>
+      <script type="text/javascript" src="../assets/js/metro.js"></script>
+      <script type="text/javascript" src="../assets/js/site.js"></script>
+      <script src="bookmarklet.js"></script>
+      <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+      <script type="text/javascript">stLight.options({publisher: "ur-ab38a739-ea09-1420-27f0-c258d24c6adb"}); </script>
+      <script type="text/javascript">
+         $(".metro").metro();
+      </script>
+      <script src="http://stats.higg.in/?js"></script>
+      <script src="http://stats.higg.in/i/effintoolset/?js"></script>
+      <script>var t_t_t = document.title;function s(e, x, y) {e.style.backgroundPosition = x + "px -" + y + "px"};function do_the_twitter_dance(){window.open('http://twitter.com/intent/tweet?text='+t_t_t+'&via=_higg_&url='+location.href,'twitter-window','height=300,width=450')}</script>
+      <style>.tweet_container{width:55px;height:25px;position:fixed;right:6px;top:0;cursor:pointer;padding-top:5px}.tweet_button{width:55px;height:20px;cursor:pointer;background:url(http://i.higg.in/tweet.png) no-repeat}</style>
+      <div class="tweet_container">
+         <div class="tweet_button" onmouseover="s(this,0,21)" onmouseout="s(this,0,0)" onmousedown="s(this,0,42)" onclick="do_the_twitter_dance();"></div>
+      </div>
+   </body>
+</html>
