@@ -260,3 +260,18 @@ background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAIAAABI9
     box-shadow: 0 0 8px #999 inset;
 }
 ::-webkit-scrollbar-thumb:hover { background: #999 }
+
+body .one .bsa_it_p { display: none; }
+#bsap_aplink{font-size: 12px;color:black;text-decoration:none}
+#bsap_aplink:visited{color:black}
+
+.via_adpacks a{
+background:#f0f0f0;
+height: 24px;
+width: 100px;
+line-height: 24px;
+padding:0px;
+display:block;
+text-align:center;
+border-radius: 3px;
+}
