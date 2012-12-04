@@ -8,6 +8,8 @@ Website: [http://iwantaneff.in/toolset/][2]
 
 You are browsing the Github home of **Effin Toolset - A suite of tools for web developers**
 
+[![Foo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/thing/470390)
+
 Devtools
 - [http//iwantaneff.in/entifier/](http//iwantaneff.in/entifier/)
 - [http//iwantaneff.in/dataurl/](http//iwantaneff.in/dataurl/)
@@ -28,7 +30,7 @@ Unicode
 Resources
 - [http//iwantaneff.in/custom.webkit.scrollbar.css](http//iwantaneff.in/custom.webkit.scrollbar.css)
 - [http//iwantaneff.in/favicon/](http//iwantaneff.in/favicon/)
-- [http//iwantaneff.in/facebook.ping/](http//iwantaneff.in/facebook.ping/)
+- [http//iwantaneff.in/facebook.ping/](http//iwantaneff.in/facebook.ping/)aaa
 - [http//iwantaneff.in/cursor.css](http//iwantaneff.in/cursor.css)
 
 Misc Tools
