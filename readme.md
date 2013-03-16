@@ -56,6 +56,6 @@ Projects:
 ----------
 
 
-  [1]: http://davidhiggins.me/
+  [1]: http://higg.im/
   [2]: http://iwantaneff.in/toolset/
   
